@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XMI verified="false" xmi.version="1.2" timestamp="2026-07-23T00:00:00" xmlns:UML="http://schema.omg.org/spec/UML/1.4">
+ <XMI.header>
+  <XMI.documentation>
+   <XMI.exporter>umbrello uml modeller http://umbrello.kde.org</XMI.exporter>
+   <XMI.exporterVersion>1.6.16</XMI.exporterVersion>
+   <XMI.exporterEncoding>UnicodeUTF8</XMI.exporterEncoding>
+  </XMI.documentation>
+  <XMI.metamodel xmi.version="1.4" href="UML.xml" xmi.name="UML"/>
+ </XMI.header>
+ <XMI.content>
+  <UML:Model isSpecification="false" isAbstract="false" isLeaf="false" xmi.id="m1" isRoot="false" name="UML Model">
+   <UML:Namespace.ownedElement>
+    <UML:Stereotype visibility="public" isSpecification="false" namespace="m1" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="folder" name="folder"/>
+    <UML:Stereotype visibility="public" isSpecification="false" namespace="m1" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="include" name="include"/>
+    <UML:Stereotype visibility="public" isSpecification="false" namespace="m1" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="extend" name="extend"/>
+    <UML:Model visibility="public" isSpecification="false" namespace="m1" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="Logical_View" name="Logical View">
+     <UML:Namespace.ownedElement>
+      <UML:Package stereotype="folder" visibility="public" isSpecification="false" namespace="Logical_View" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="Datatypes" name="Datatypes">
+       <UML:Namespace.ownedElement>
+        <UML:DataType visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uKCty218" name="char"/>
+        <UML:DataType visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uKCtz431" name="int"/>
+        <UML:DataType visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uKCu0656" name="float"/>
+        <UML:DataType visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uKCu1766" name="double"/>
+        <UML:DataType visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uKCu2420" name="bool"/>
+        <UML:DataType visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uKCu3277" name="string"/>
+        <UML:DataType visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uKCu4336" name="unsigned char"/>
+        <UML:DataType visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uKCu5202" name="signed char"/>
+        <UML:DataType visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uKCu6285" name="unsigned int"/>
+        <UML:DataType visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uKCu7352" name="signed int"/>
+        <UML:DataType visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uKCu8619" name="short int"/>
+        <UML:DataType visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uKCu9778" name="unsigned short int"/>
+        <UML:DataType visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uKCua370" name="signed short int"/>
+        <UML:DataType visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uKCub280" name="long int"/>
+        <UML:DataType visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uKCuc391" name="signed long int"/>
+        <UML:DataType visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uKCud396" name="unsigned long int"/>
+        <UML:DataType visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uKCue702" name="long double"/>
+        <UML:DataType visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uKCuf340" name="wchar_t"/>
+       </UML:Namespace.ownedElement>
+      </UML:Package>
+      <UML:Class visibility="public" isSpecification="false" namespace="Logical_View" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uKCrt249" name="Customer"/>
+      <UML:Class visibility="public" isSpecification="false" namespace="Logical_View" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uKCru822" name="ATM"/>
+      <UML:Class visibility="public" isSpecification="false" namespace="Logical_View" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uKCrv666" name="BankServer"/>
+      <UML:Class visibility="public" isSpecification="false" namespace="Logical_View" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uKCrw714" name="Account"/>
+      <UML:Class visibility="public" isSpecification="false" namespace="Logical_View" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uKCrx904" name="TransactionLog"/>
+      <UML:Class visibility="public" isSpecification="false" namespace="Logical_View" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uKCry226" name="ReceiptPrinter"/>
+     </UML:Namespace.ownedElement>
+     <XMI.extension xmi.extender="umbrello">
+      <diagrams resolution="90">
+       <diagram showopsig="1" linecolor="#ff0000" snapx="25" showattribassocs="1" snapy="25" linewidth="0" showattsig="1" textcolor="#000000" isopen="1" showpackage="1" showpubliconly="0" showstereotype="1" name="Sequence Diagram - Withdraw Cash (ATM Banking)" font="Sans Serif,9,-1,0,50,0,0,0,0,0" canvasheight="1085" canvaswidth="1650" localid="-1" snapcsgrid="0" showgrid="0" showops="1" griddotcolor="#d3d3d3" backgroundcolor="#ffffff" showdocumentation="0" usefillcolor="1" fillcolor="#ffff00" zoom="100" xmi.id="uKCtx299" documentation="" showscope="1" snapgrid="0" showatts="1" type="3">
+        <widgets>
+         <objectwidget linecolor="#ff0000" usesdiagramfillcolor="1" linewidth="0" textcolor="#000000" usesdiagramusefillcolor="1" x="30" decon="0" showstereotype="1" y="40" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="uKCrz421" width="110" isinstance="0" multipleinstance="0" usefillcolor="1" fillcolor="none" xmi.id="uKCrt249" autoresize="1" height="30" drawasactor="1"/>
+         <objectwidget linecolor="#ff0000" usesdiagramfillcolor="1" linewidth="0" textcolor="#000000" usesdiagramusefillcolor="1" x="250" decon="0" showstereotype="1" y="40" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="uKCs0664" width="130" isinstance="0" multipleinstance="0" usefillcolor="1" fillcolor="none" xmi.id="uKCru822" autoresize="1" height="30" drawasactor="0"/>
+         <objectwidget linecolor="#ff0000" usesdiagramfillcolor="1" linewidth="0" textcolor="#000000" usesdiagramusefillcolor="1" x="490" decon="0" showstereotype="1" y="40" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="uKCs1967" width="170" isinstance="0" multipleinstance="0" usefillcolor="1" fillcolor="none" xmi.id="uKCrv666" autoresize="1" height="30" drawasactor="0"/>
+         <objectwidget linecolor="#ff0000" usesdiagramfillcolor="1" linewidth="0" textcolor="#000000" usesdiagramusefillcolor="1" x="770" decon="0" showstereotype="1" y="40" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="uKCs2885" width="150" isinstance="0" multipleinstance="0" usefillcolor="1" fillcolor="none" xmi.id="uKCrw714" autoresize="1" height="30" drawasactor="0"/>
+         <objectwidget linecolor="#ff0000" usesdiagramfillcolor="1" linewidth="0" textcolor="#000000" usesdiagramusefillcolor="1" x="1030" decon="0" showstereotype="1" y="40" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="uKCs3673" width="190" isinstance="0" multipleinstance="0" usefillcolor="1" fillcolor="none" xmi.id="uKCrx904" autoresize="1" height="30" drawasactor="0"/>
+         <objectwidget linecolor="#ff0000" usesdiagramfillcolor="1" linewidth="0" textcolor="#000000" usesdiagramusefillcolor="1" x="1330" decon="0" showstereotype="1" y="40" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="uKCs4784" width="190" isinstance="0" multipleinstance="0" usefillcolor="1" fillcolor="none" xmi.id="uKCry226" autoresize="1" height="30" drawasactor="0"/>
+        </widgets>
+        <messages>
+         <messagewidget linecolor="#ff0000" usesdiagramfillcolor="1" widgetbid="uKCru822" textid="uKCs6218" operation="insertCard()" linewidth="0" textcolor="none" seqnum="" usesdiagramusefillcolor="1" x="85" showstereotype="1" y="100" widgetaid="uKCrt249" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="uKCs7345" width="230" isinstance="0" usefillcolor="1" fillcolor="none" xmi.id="uKCs5612" autoresize="1" height="10" sequencemessagetype="1000">
+          <floatingtext linecolor="#ff0000" usesdiagramfillcolor="1" linewidth="0" textcolor="none" usesdiagramusefillcolor="1" x="120" showstereotype="1" y="83" text="insertCard()" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="uKCs8991" pretext="" role="704" width="160" isinstance="0" posttext="" usefillcolor="1" fillcolor="none" xmi.id="uKCs6218" autoresize="1" height="17"/>
+         </messagewidget>
+         <messagewidget linecolor="#ff0000" usesdiagramfillcolor="1" widgetbid="uKCru822" textid="uKCsa689" operation="enterPIN(pin)" linewidth="0" textcolor="none" seqnum="" usesdiagramusefillcolor="1" x="85" showstereotype="1" y="155" widgetaid="uKCrt249" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="uKCsb600" width="230" isinstance="0" usefillcolor="1" fillcolor="none" xmi.id="uKCs9396" autoresize="1" height="10" sequencemessagetype="1000">
+          <floatingtext linecolor="#ff0000" usesdiagramfillcolor="1" linewidth="0" textcolor="none" usesdiagramusefillcolor="1" x="115" showstereotype="1" y="138" text="enterPIN(pin)" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="uKCsc130" pretext="" role="704" width="170" isinstance="0" posttext="" usefillcolor="1" fillcolor="none" xmi.id="uKCsa689" autoresize="1" height="17"/>
+         </messagewidget>
+         <messagewidget linecolor="#ff0000" usesdiagramfillcolor="1" widgetbid="uKCrv666" textid="uKCse916" operation="validatePIN(cardNumber, pin)" linewidth="0" textcolor="none" seqnum="" usesdiagramusefillcolor="1" x="315" showstereotype="1" y="210" widgetaid="uKCru822" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="uKCsf198" width="260" isinstance="0" usefillcolor="1" fillcolor="none" xmi.id="uKCsd511" autoresize="1" height="10" sequencemessagetype="1000">
+          <floatingtext linecolor="#ff0000" usesdiagramfillcolor="1" linewidth="0" textcolor="none" usesdiagramusefillcolor="1" x="285" showstereotype="1" y="193" text="validatePIN(cardNumber, pin)" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="uKCsg126" pretext="" role="704" width="320" isinstance="0" posttext="" usefillcolor="1" fillcolor="none" xmi.id="uKCse916" autoresize="1" height="17"/>
+         </messagewidget>
+         <messagewidget linecolor="#ff0000" usesdiagramfillcolor="1" widgetbid="uKCrv666" textid="uKCsi802" operation="checkPINAttempts()" linewidth="0" textcolor="none" seqnum="" usesdiagramusefillcolor="1" x="575" showstereotype="1" y="265" widgetaid="uKCrv666" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="uKCsj899" width="60" isinstance="0" usefillcolor="1" fillcolor="none" xmi.id="uKCsh854" autoresize="1" height="20" sequencemessagetype="1000">
+          <floatingtext linecolor="#ff0000" usesdiagramfillcolor="1" linewidth="0" textcolor="none" usesdiagramusefillcolor="1" x="575" showstereotype="1" y="248" text="checkPINAttempts()" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="uKCsk398" pretext="" role="705" width="220" isinstance="0" posttext="" usefillcolor="1" fillcolor="none" xmi.id="uKCsi802" autoresize="1" height="17"/>
+         </messagewidget>
+         <messagewidget linecolor="#ff0000" usesdiagramfillcolor="1" widgetbid="uKCru822" textid="uKCsm615" operation="pinValid()" linewidth="0" textcolor="none" seqnum="" usesdiagramusefillcolor="1" x="315" showstereotype="1" y="335" widgetaid="uKCrv666" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="uKCsn942" width="260" isinstance="0" usefillcolor="1" fillcolor="none" xmi.id="uKCsl424" autoresize="1" height="10" sequencemessagetype="1001">
+          <floatingtext linecolor="#ff0000" usesdiagramfillcolor="1" linewidth="0" textcolor="none" usesdiagramusefillcolor="1" x="375" showstereotype="1" y="318" text="pinValid()" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="uKCso460" pretext="" role="704" width="140" isinstance="0" posttext="" usefillcolor="1" fillcolor="none" xmi.id="uKCsm615" autoresize="1" height="17"/>
+         </messagewidget>
+         <messagewidget linecolor="#ff0000" usesdiagramfillcolor="1" widgetbid="uKCru822" textid="uKCsq378" operation="selectWithdraw(amount)" linewidth="0" textcolor="none" seqnum="" usesdiagramusefillcolor="1" x="85" showstereotype="1" y="390" widgetaid="uKCrt249" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="uKCsr846" width="230" isinstance="0" usefillcolor="1" fillcolor="none" xmi.id="uKCsp214" autoresize="1" height="10" sequencemessagetype="1000">
+          <floatingtext linecolor="#ff0000" usesdiagramfillcolor="1" linewidth="0" textcolor="none" usesdiagramusefillcolor="1" x="70" showstereotype="1" y="373" text="selectWithdraw(amount)" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="uKCss865" pretext="" role="704" width="260" isinstance="0" posttext="" usefillcolor="1" fillcolor="none" xmi.id="uKCsq378" autoresize="1" height="17"/>
+         </messagewidget>
+         <messagewidget linecolor="#ff0000" usesdiagramfillcolor="1" widgetbid="uKCrv666" textid="uKCsu220" operation="requestWithdrawal(accountNumber, amount)" linewidth="0" textcolor="none" seqnum="" usesdiagramusefillcolor="1" x="315" showstereotype="1" y="445" widgetaid="uKCru822" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="uKCsv267" width="260" isinstance="0" usefillcolor="1" fillcolor="none" xmi.id="uKCst808" autoresize="1" height="10" sequencemessagetype="1000">
+          <floatingtext linecolor="#ff0000" usesdiagramfillcolor="1" linewidth="0" textcolor="none" usesdiagramusefillcolor="1" x="225" showstereotype="1" y="428" text="requestWithdrawal(accountNumber, amount)" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="uKCsw732" pretext="" role="704" width="440" isinstance="0" posttext="" usefillcolor="1" fillcolor="none" xmi.id="uKCsu220" autoresize="1" height="17"/>
+         </messagewidget>
+         <messagewidget linecolor="#ff0000" usesdiagramfillcolor="1" widgetbid="uKCrw714" textid="uKCsy542" operation="checkBalance(amount)" linewidth="0" textcolor="none" seqnum="" usesdiagramusefillcolor="1" x="575" showstereotype="1" y="500" widgetaid="uKCrv666" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="uKCsz908" width="270" isinstance="0" usefillcolor="1" fillcolor="none" xmi.id="uKCsx728" autoresize="1" height="10" sequencemessagetype="1000">
+          <floatingtext linecolor="#ff0000" usesdiagramfillcolor="1" linewidth="0" textcolor="none" usesdiagramusefillcolor="1" x="590" showstereotype="1" y="483" text="checkBalance(amount)" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="uKCt0597" pretext="" role="704" width="240" isinstance="0" posttext="" usefillcolor="1" fillcolor="none" xmi.id="uKCsy542" autoresize="1" height="17"/>
+         </messagewidget>
+         <messagewidget linecolor="#ff0000" usesdiagramfillcolor="1" widgetbid="uKCrw714" textid="uKCt2262" operation="verifySufficientFunds()" linewidth="0" textcolor="none" seqnum="" usesdiagramusefillcolor="1" x="845" showstereotype="1" y="555" widgetaid="uKCrw714" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="uKCt3430" width="60" isinstance="0" usefillcolor="1" fillcolor="none" xmi.id="uKCt1686" autoresize="1" height="20" sequencemessagetype="1000">
+          <floatingtext linecolor="#ff0000" usesdiagramfillcolor="1" linewidth="0" textcolor="none" usesdiagramusefillcolor="1" x="845" showstereotype="1" y="538" text="verifySufficientFunds()" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="uKCt4472" pretext="" role="705" width="270" isinstance="0" posttext="" usefillcolor="1" fillcolor="none" xmi.id="uKCt2262" autoresize="1" height="17"/>
+         </messagewidget>
+         <messagewidget linecolor="#ff0000" usesdiagramfillcolor="1" widgetbid="uKCrv666" textid="uKCt6151" operation="balanceSufficient()" linewidth="0" textcolor="none" seqnum="" usesdiagramusefillcolor="1" x="575" showstereotype="1" y="625" widgetaid="uKCrw714" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="uKCt7870" width="270" isinstance="0" usefillcolor="1" fillcolor="none" xmi.id="uKCt5776" autoresize="1" height="10" sequencemessagetype="1001">
+          <floatingtext linecolor="#ff0000" usesdiagramfillcolor="1" linewidth="0" textcolor="none" usesdiagramusefillcolor="1" x="595" showstereotype="1" y="608" text="balanceSufficient()" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="uKCt8969" pretext="" role="704" width="230" isinstance="0" posttext="" usefillcolor="1" fillcolor="none" xmi.id="uKCt6151" autoresize="1" height="17"/>
+         </messagewidget>
+         <messagewidget linecolor="#ff0000" usesdiagramfillcolor="1" widgetbid="uKCrw714" textid="uKCta246" operation="debitAccount(amount)" linewidth="0" textcolor="none" seqnum="" usesdiagramusefillcolor="1" x="575" showstereotype="1" y="680" widgetaid="uKCrv666" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="uKCtb542" width="270" isinstance="0" usefillcolor="1" fillcolor="none" xmi.id="uKCt9669" autoresize="1" height="10" sequencemessagetype="1000">
+          <floatingtext linecolor="#ff0000" usesdiagramfillcolor="1" linewidth="0" textcolor="none" usesdiagramusefillcolor="1" x="590" showstereotype="1" y="663" text="debitAccount(amount)" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="uKCtc609" pretext="" role="704" width="240" isinstance="0" posttext="" usefillcolor="1" fillcolor="none" xmi.id="uKCta246" autoresize="1" height="17"/>
+         </messagewidget>
+         <messagewidget linecolor="#ff0000" usesdiagramfillcolor="1" widgetbid="uKCru822" textid="uKCte289" operation="approveWithdrawal()" linewidth="0" textcolor="none" seqnum="" usesdiagramusefillcolor="1" x="315" showstereotype="1" y="735" widgetaid="uKCrv666" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="uKCtf347" width="260" isinstance="0" usefillcolor="1" fillcolor="none" xmi.id="uKCtd553" autoresize="1" height="10" sequencemessagetype="1001">
+          <floatingtext linecolor="#ff0000" usesdiagramfillcolor="1" linewidth="0" textcolor="none" usesdiagramusefillcolor="1" x="330" showstereotype="1" y="718" text="approveWithdrawal()" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="uKCtg931" pretext="" role="704" width="230" isinstance="0" posttext="" usefillcolor="1" fillcolor="none" xmi.id="uKCte289" autoresize="1" height="17"/>
+         </messagewidget>
+         <messagewidget linecolor="#ff0000" usesdiagramfillcolor="1" widgetbid="uKCru822" textid="uKCti595" operation="dispenseCash()" linewidth="0" textcolor="none" seqnum="" usesdiagramusefillcolor="1" x="315" showstereotype="1" y="790" widgetaid="uKCru822" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="uKCtj925" width="60" isinstance="0" usefillcolor="1" fillcolor="none" xmi.id="uKCth671" autoresize="1" height="20" sequencemessagetype="1000">
+          <floatingtext linecolor="#ff0000" usesdiagramfillcolor="1" linewidth="0" textcolor="none" usesdiagramusefillcolor="1" x="315" showstereotype="1" y="773" text="dispenseCash()" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="uKCtk736" pretext="" role="705" width="180" isinstance="0" posttext="" usefillcolor="1" fillcolor="none" xmi.id="uKCti595" autoresize="1" height="17"/>
+         </messagewidget>
+         <messagewidget linecolor="#ff0000" usesdiagramfillcolor="1" widgetbid="uKCrx904" textid="uKCtm496" operation="logTransaction(details)" linewidth="0" textcolor="none" seqnum="" usesdiagramusefillcolor="1" x="315" showstereotype="1" y="860" widgetaid="uKCru822" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="uKCtn588" width="810" isinstance="0" usefillcolor="1" fillcolor="none" xmi.id="uKCtl279" autoresize="1" height="10" sequencemessagetype="1000">
+          <floatingtext linecolor="#ff0000" usesdiagramfillcolor="1" linewidth="0" textcolor="none" usesdiagramusefillcolor="1" x="585" showstereotype="1" y="843" text="logTransaction(details)" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="uKCto722" pretext="" role="704" width="270" isinstance="0" posttext="" usefillcolor="1" fillcolor="none" xmi.id="uKCtm496" autoresize="1" height="17"/>
+         </messagewidget>
+         <messagewidget linecolor="#ff0000" usesdiagramfillcolor="1" widgetbid="uKCry226" textid="uKCtq252" operation="printReceipt(details)" linewidth="0" textcolor="none" seqnum="" usesdiagramusefillcolor="1" x="315" showstereotype="1" y="915" widgetaid="uKCru822" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="uKCtr173" width="1110" isinstance="0" usefillcolor="1" fillcolor="none" xmi.id="uKCtp781" autoresize="1" height="10" sequencemessagetype="1000">
+          <floatingtext linecolor="#ff0000" usesdiagramfillcolor="1" linewidth="0" textcolor="none" usesdiagramusefillcolor="1" x="745" showstereotype="1" y="898" text="printReceipt(details)" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="uKCts942" pretext="" role="704" width="250" isinstance="0" posttext="" usefillcolor="1" fillcolor="none" xmi.id="uKCtq252" autoresize="1" height="17"/>
+         </messagewidget>
+         <messagewidget linecolor="#ff0000" usesdiagramfillcolor="1" widgetbid="uKCrt249" textid="uKCtu626" operation="provideReceipt()" linewidth="0" textcolor="none" seqnum="" usesdiagramusefillcolor="1" x="85" showstereotype="1" y="970" widgetaid="uKCry226" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="uKCtv341" width="1340" isinstance="0" usefillcolor="1" fillcolor="none" xmi.id="uKCtt577" autoresize="1" height="10" sequencemessagetype="1001">
+          <floatingtext linecolor="#ff0000" usesdiagramfillcolor="1" linewidth="0" textcolor="none" usesdiagramusefillcolor="1" x="655" showstereotype="1" y="953" text="provideReceipt()" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="uKCtw634" pretext="" role="704" width="200" isinstance="0" posttext="" usefillcolor="1" fillcolor="none" xmi.id="uKCtu626" autoresize="1" height="17"/>
+         </messagewidget>
+        </messages>
+        <associations>
+
+        </associations>
+       </diagram>
+      </diagrams>
+     </XMI.extension>
+    </UML:Model>
+    <UML:Model visibility="public" isSpecification="false" namespace="m1" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="Use_Case_View" name="Use Case View">
+     <UML:Namespace.ownedElement/>
+    </UML:Model>
+    <UML:Model visibility="public" isSpecification="false" namespace="m1" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="Component_View" name="Component View">
+     <UML:Namespace.ownedElement/>
+    </UML:Model>
+    <UML:Model visibility="public" isSpecification="false" namespace="m1" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="Deployment_View" name="Deployment View">
+     <UML:Namespace.ownedElement/>
+    </UML:Model>
+    <UML:Model visibility="public" isSpecification="false" namespace="m1" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="Entity_Relationship_Model" name="Entity Relationship Model">
+     <UML:Namespace.ownedElement/>
+    </UML:Model>
+   </UML:Namespace.ownedElement>
+  </UML:Model>
+ </XMI.content>
+ <XMI.extensions xmi.extender="umbrello">
+  <docsettings viewid="uKCtx299" uniqueid="uKCug192" documentation=""/>
+  <listview>
+   <listitem open="1" type="800" id="Views">
+    <listitem open="1" type="802" id="Use_Case_View"/>
+    <listitem open="1" type="836" id="Entity_Relationship_Model"/>
+    <listitem open="1" type="821" id="Component_View"/>
+    <listitem open="1" type="801" id="Logical_View">
+     <listitem open="0" type="830" id="Datatypes">
+      <listitem open="1" type="829" id="uKCty218"/>
+      <listitem open="1" type="829" id="uKCtz431"/>
+      <listitem open="1" type="829" id="uKCu0656"/>
+      <listitem open="1" type="829" id="uKCu1766"/>
+      <listitem open="1" type="829" id="uKCu2420"/>
+      <listitem open="1" type="829" id="uKCu3277"/>
+      <listitem open="1" type="829" id="uKCu4336"/>
+      <listitem open="1" type="829" id="uKCu5202"/>
+      <listitem open="1" type="829" id="uKCu6285"/>
+      <listitem open="1" type="829" id="uKCu7352"/>
+      <listitem open="1" type="829" id="uKCu8619"/>
+      <listitem open="1" type="829" id="uKCu9778"/>
+      <listitem open="1" type="829" id="uKCua370"/>
+      <listitem open="1" type="829" id="uKCub280"/>
+      <listitem open="1" type="829" id="uKCuc391"/>
+      <listitem open="1" type="829" id="uKCud396"/>
+      <listitem open="1" type="829" id="uKCue702"/>
+      <listitem open="1" type="829" id="uKCuf340"/>
+     </listitem>
+     <listitem open="0" type="810" id="uKCtx299" label="Sequence Diagram - Withdraw Cash"/>
+     <listitem open="1" type="813" id="uKCrt249"/>
+     <listitem open="1" type="813" id="uKCru822"/>
+     <listitem open="1" type="813" id="uKCrv666"/>
+     <listitem open="1" type="813" id="uKCrw714"/>
+     <listitem open="1" type="813" id="uKCrx904"/>
+     <listitem open="1" type="813" id="uKCry226"/>
+    </listitem>
+    <listitem open="1" type="827" id="Deployment_View"/>
+   </listitem>
+  </listview>
+  <codegeneration>
+   <codegenerator language="C++"/>
+  </codegeneration>
+ </XMI.extensions>
+</XMI>
