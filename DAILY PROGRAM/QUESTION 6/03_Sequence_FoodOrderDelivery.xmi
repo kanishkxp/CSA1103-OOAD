@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XMI verified="false" xmi.version="1.2" timestamp="2026-07-23T00:00:00" xmlns:UML="http://schema.omg.org/spec/UML/1.4">
+ <XMI.header>
+  <XMI.documentation>
+   <XMI.exporter>umbrello uml modeller http://umbrello.kde.org</XMI.exporter>
+   <XMI.exporterVersion>1.6.16</XMI.exporterVersion>
+   <XMI.exporterEncoding>UnicodeUTF8</XMI.exporterEncoding>
+  </XMI.documentation>
+  <XMI.metamodel xmi.version="1.4" href="UML.xml" xmi.name="UML"/>
+ </XMI.header>
+ <XMI.content>
+  <UML:Model isSpecification="false" isAbstract="false" isLeaf="false" xmi.id="m1" isRoot="false" name="UML Model">
+   <UML:Namespace.ownedElement>
+    <UML:Stereotype visibility="public" isSpecification="false" namespace="m1" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="folder" name="folder"/>
+    <UML:Stereotype visibility="public" isSpecification="false" namespace="m1" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="include" name="include"/>
+    <UML:Stereotype visibility="public" isSpecification="false" namespace="m1" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="extend" name="extend"/>
+    <UML:Model visibility="public" isSpecification="false" namespace="m1" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="Logical_View" name="Logical View">
+     <UML:Namespace.ownedElement>
+      <UML:Package stereotype="folder" visibility="public" isSpecification="false" namespace="Logical_View" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="Datatypes" name="Datatypes">
+       <UML:Namespace.ownedElement>
+        <UML:DataType visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uKCtm192" name="char"/>
+        <UML:DataType visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uKCtn530" name="int"/>
+        <UML:DataType visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uKCto108" name="float"/>
+        <UML:DataType visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uKCtp986" name="double"/>
+        <UML:DataType visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uKCtq511" name="bool"/>
+        <UML:DataType visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uKCtr744" name="string"/>
+        <UML:DataType visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uKCts647" name="unsigned char"/>
+        <UML:DataType visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uKCtt430" name="signed char"/>
+        <UML:DataType visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uKCtu657" name="unsigned int"/>
+        <UML:DataType visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uKCtv625" name="signed int"/>
+        <UML:DataType visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uKCtw888" name="short int"/>
+        <UML:DataType visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uKCtx200" name="unsigned short int"/>
+        <UML:DataType visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uKCty790" name="signed short int"/>
+        <UML:DataType visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uKCtz350" name="long int"/>
+        <UML:DataType visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uKCu0455" name="signed long int"/>
+        <UML:DataType visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uKCu1884" name="unsigned long int"/>
+        <UML:DataType visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uKCu2770" name="long double"/>
+        <UML:DataType visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uKCu3800" name="wchar_t"/>
+       </UML:Namespace.ownedElement>
+      </UML:Package>
+      <UML:Class visibility="public" isSpecification="false" namespace="Logical_View" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uKCrt564" name="Customer"/>
+      <UML:Class visibility="public" isSpecification="false" namespace="Logical_View" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uKCru260" name="OrderService"/>
+      <UML:Class visibility="public" isSpecification="false" namespace="Logical_View" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uKCrv778" name="PaymentGateway"/>
+      <UML:Class visibility="public" isSpecification="false" namespace="Logical_View" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uKCrw352" name="RestaurantService"/>
+      <UML:Class visibility="public" isSpecification="false" namespace="Logical_View" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uKCrx550" name="DeliveryService"/>
+      <UML:Class visibility="public" isSpecification="false" namespace="Logical_View" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uKCry390" name="DeliveryAgent"/>
+     </UML:Namespace.ownedElement>
+     <XMI.extension xmi.extender="umbrello">
+      <diagrams resolution="90">
+       <diagram showopsig="1" linecolor="#ff0000" snapx="25" showattribassocs="1" snapy="25" linewidth="0" showattsig="1" textcolor="#000000" isopen="1" showpackage="1" showpubliconly="0" showstereotype="1" name="Sequence Diagram - Food Order to Delivery" font="Sans Serif,9,-1,0,50,0,0,0,0,0" canvasheight="905" canvaswidth="1700" localid="-1" snapcsgrid="0" showgrid="0" showops="1" griddotcolor="#d3d3d3" backgroundcolor="#ffffff" showdocumentation="0" usefillcolor="1" fillcolor="#ffff00" zoom="100" xmi.id="uKCtl879" documentation="" showscope="1" snapgrid="0" showatts="1" type="3">
+        <widgets>
+         <objectwidget linecolor="#ff0000" usesdiagramfillcolor="1" linewidth="0" textcolor="#000000" usesdiagramusefillcolor="1" x="30" decon="0" showstereotype="1" y="40" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="uKCrz791" width="110" isinstance="0" multipleinstance="0" usefillcolor="1" fillcolor="none" xmi.id="uKCrt564" autoresize="1" height="30" drawasactor="1"/>
+         <objectwidget linecolor="#ff0000" usesdiagramfillcolor="1" linewidth="0" textcolor="#000000" usesdiagramusefillcolor="1" x="250" decon="0" showstereotype="1" y="40" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="uKCs0719" width="170" isinstance="0" multipleinstance="0" usefillcolor="1" fillcolor="none" xmi.id="uKCru260" autoresize="1" height="30" drawasactor="0"/>
+         <objectwidget linecolor="#ff0000" usesdiagramfillcolor="1" linewidth="0" textcolor="#000000" usesdiagramusefillcolor="1" x="530" decon="0" showstereotype="1" y="40" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="uKCs1384" width="190" isinstance="0" multipleinstance="0" usefillcolor="1" fillcolor="none" xmi.id="uKCrv778" autoresize="1" height="30" drawasactor="0"/>
+         <objectwidget linecolor="#ff0000" usesdiagramfillcolor="1" linewidth="0" textcolor="#000000" usesdiagramusefillcolor="1" x="830" decon="0" showstereotype="1" y="40" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="uKCs2962" width="210" isinstance="0" multipleinstance="0" usefillcolor="1" fillcolor="none" xmi.id="uKCrw352" autoresize="1" height="30" drawasactor="0"/>
+         <objectwidget linecolor="#ff0000" usesdiagramfillcolor="1" linewidth="0" textcolor="#000000" usesdiagramusefillcolor="1" x="1150" decon="0" showstereotype="1" y="40" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="uKCs3137" width="200" isinstance="0" multipleinstance="0" usefillcolor="1" fillcolor="none" xmi.id="uKCrx550" autoresize="1" height="30" drawasactor="0"/>
+         <objectwidget linecolor="#ff0000" usesdiagramfillcolor="1" linewidth="0" textcolor="#000000" usesdiagramusefillcolor="1" x="1460" decon="0" showstereotype="1" y="40" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="uKCs4575" width="150" isinstance="0" multipleinstance="0" usefillcolor="1" fillcolor="none" xmi.id="uKCry390" autoresize="1" height="30" drawasactor="1"/>
+        </widgets>
+        <messages>
+         <messagewidget linecolor="#ff0000" usesdiagramfillcolor="1" widgetbid="uKCru260" textid="uKCs6251" operation="placeOrder(items)" linewidth="0" textcolor="none" seqnum="" usesdiagramusefillcolor="1" x="85" showstereotype="1" y="100" widgetaid="uKCrt564" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="uKCs7704" width="250" isinstance="0" usefillcolor="1" fillcolor="none" xmi.id="uKCs5256" autoresize="1" height="10" sequencemessagetype="1000">
+          <floatingtext linecolor="#ff0000" usesdiagramfillcolor="1" linewidth="0" textcolor="none" usesdiagramusefillcolor="1" x="105" showstereotype="1" y="83" text="placeOrder(items)" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="uKCs8459" pretext="" role="704" width="210" isinstance="0" posttext="" usefillcolor="1" fillcolor="none" xmi.id="uKCs6251" autoresize="1" height="17"/>
+         </messagewidget>
+         <messagewidget linecolor="#ff0000" usesdiagramfillcolor="1" widgetbid="uKCrv778" textid="uKCsa996" operation="processPayment(amount)" linewidth="0" textcolor="none" seqnum="" usesdiagramusefillcolor="1" x="335" showstereotype="1" y="155" widgetaid="uKCru260" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="uKCsb583" width="290" isinstance="0" usefillcolor="1" fillcolor="none" xmi.id="uKCs9933" autoresize="1" height="10" sequencemessagetype="1000">
+          <floatingtext linecolor="#ff0000" usesdiagramfillcolor="1" linewidth="0" textcolor="none" usesdiagramusefillcolor="1" x="350" showstereotype="1" y="138" text="processPayment(amount)" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="uKCsc146" pretext="" role="704" width="260" isinstance="0" posttext="" usefillcolor="1" fillcolor="none" xmi.id="uKCsa996" autoresize="1" height="17"/>
+         </messagewidget>
+         <messagewidget linecolor="#ff0000" usesdiagramfillcolor="1" widgetbid="uKCrv778" textid="uKCse382" operation="verifyTransaction()" linewidth="0" textcolor="none" seqnum="" usesdiagramusefillcolor="1" x="625" showstereotype="1" y="210" widgetaid="uKCrv778" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="uKCsf330" width="60" isinstance="0" usefillcolor="1" fillcolor="none" xmi.id="uKCsd828" autoresize="1" height="20" sequencemessagetype="1000">
+          <floatingtext linecolor="#ff0000" usesdiagramfillcolor="1" linewidth="0" textcolor="none" usesdiagramusefillcolor="1" x="625" showstereotype="1" y="193" text="verifyTransaction()" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="uKCsg144" pretext="" role="705" width="230" isinstance="0" posttext="" usefillcolor="1" fillcolor="none" xmi.id="uKCse382" autoresize="1" height="17"/>
+         </messagewidget>
+         <messagewidget linecolor="#ff0000" usesdiagramfillcolor="1" widgetbid="uKCru260" textid="uKCsi577" operation="paymentConfirmed()" linewidth="0" textcolor="none" seqnum="" usesdiagramusefillcolor="1" x="335" showstereotype="1" y="280" widgetaid="uKCrv778" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="uKCsj322" width="290" isinstance="0" usefillcolor="1" fillcolor="none" xmi.id="uKCsh558" autoresize="1" height="10" sequencemessagetype="1001">
+          <floatingtext linecolor="#ff0000" usesdiagramfillcolor="1" linewidth="0" textcolor="none" usesdiagramusefillcolor="1" x="370" showstereotype="1" y="263" text="paymentConfirmed()" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="uKCsk773" pretext="" role="704" width="220" isinstance="0" posttext="" usefillcolor="1" fillcolor="none" xmi.id="uKCsi577" autoresize="1" height="17"/>
+         </messagewidget>
+         <messagewidget linecolor="#ff0000" usesdiagramfillcolor="1" widgetbid="uKCrw352" textid="uKCsm582" operation="forwardOrder(orderId)" linewidth="0" textcolor="none" seqnum="" usesdiagramusefillcolor="1" x="335" showstereotype="1" y="335" widgetaid="uKCru260" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="uKCsn564" width="600" isinstance="0" usefillcolor="1" fillcolor="none" xmi.id="uKCsl389" autoresize="1" height="10" sequencemessagetype="1000">
+          <floatingtext linecolor="#ff0000" usesdiagramfillcolor="1" linewidth="0" textcolor="none" usesdiagramusefillcolor="1" x="510" showstereotype="1" y="318" text="forwardOrder(orderId)" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="uKCso864" pretext="" role="704" width="250" isinstance="0" posttext="" usefillcolor="1" fillcolor="none" xmi.id="uKCsm582" autoresize="1" height="17"/>
+         </messagewidget>
+         <messagewidget linecolor="#ff0000" usesdiagramfillcolor="1" widgetbid="uKCrw352" textid="uKCsq958" operation="acceptOrder()" linewidth="0" textcolor="none" seqnum="" usesdiagramusefillcolor="1" x="935" showstereotype="1" y="390" widgetaid="uKCrw352" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="uKCsr121" width="60" isinstance="0" usefillcolor="1" fillcolor="none" xmi.id="uKCsp544" autoresize="1" height="20" sequencemessagetype="1000">
+          <floatingtext linecolor="#ff0000" usesdiagramfillcolor="1" linewidth="0" textcolor="none" usesdiagramusefillcolor="1" x="935" showstereotype="1" y="373" text="acceptOrder()" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="uKCss353" pretext="" role="705" width="170" isinstance="0" posttext="" usefillcolor="1" fillcolor="none" xmi.id="uKCsq958" autoresize="1" height="17"/>
+         </messagewidget>
+         <messagewidget linecolor="#ff0000" usesdiagramfillcolor="1" widgetbid="uKCru260" textid="uKCsu164" operation="orderAccepted()" linewidth="0" textcolor="none" seqnum="" usesdiagramusefillcolor="1" x="335" showstereotype="1" y="460" widgetaid="uKCrw352" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="uKCsv404" width="600" isinstance="0" usefillcolor="1" fillcolor="none" xmi.id="uKCst897" autoresize="1" height="10" sequencemessagetype="1001">
+          <floatingtext linecolor="#ff0000" usesdiagramfillcolor="1" linewidth="0" textcolor="none" usesdiagramusefillcolor="1" x="540" showstereotype="1" y="443" text="orderAccepted()" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="uKCsw783" pretext="" role="704" width="190" isinstance="0" posttext="" usefillcolor="1" fillcolor="none" xmi.id="uKCsu164" autoresize="1" height="17"/>
+         </messagewidget>
+         <messagewidget linecolor="#ff0000" usesdiagramfillcolor="1" widgetbid="uKCrx550" textid="uKCsy891" operation="requestDelivery(orderId)" linewidth="0" textcolor="none" seqnum="" usesdiagramusefillcolor="1" x="935" showstereotype="1" y="515" widgetaid="uKCrw352" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="uKCsz225" width="315" isinstance="0" usefillcolor="1" fillcolor="none" xmi.id="uKCsx772" autoresize="1" height="10" sequencemessagetype="1000">
+          <floatingtext linecolor="#ff0000" usesdiagramfillcolor="1" linewidth="0" textcolor="none" usesdiagramusefillcolor="1" x="952.5" showstereotype="1" y="498" text="requestDelivery(orderId)" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="uKCt0689" pretext="" role="704" width="280" isinstance="0" posttext="" usefillcolor="1" fillcolor="none" xmi.id="uKCsy891" autoresize="1" height="17"/>
+         </messagewidget>
+         <messagewidget linecolor="#ff0000" usesdiagramfillcolor="1" widgetbid="uKCry390" textid="uKCt2689" operation="assignDelivery(orderId)" linewidth="0" textcolor="none" seqnum="" usesdiagramusefillcolor="1" x="1250" showstereotype="1" y="570" widgetaid="uKCrx550" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="uKCt3115" width="285" isinstance="0" usefillcolor="1" fillcolor="none" xmi.id="uKCt1775" autoresize="1" height="10" sequencemessagetype="1000">
+          <floatingtext linecolor="#ff0000" usesdiagramfillcolor="1" linewidth="0" textcolor="none" usesdiagramusefillcolor="1" x="1257.5" showstereotype="1" y="553" text="assignDelivery(orderId)" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="uKCt4102" pretext="" role="704" width="270" isinstance="0" posttext="" usefillcolor="1" fillcolor="none" xmi.id="uKCt2689" autoresize="1" height="17"/>
+         </messagewidget>
+         <messagewidget linecolor="#ff0000" usesdiagramfillcolor="1" widgetbid="uKCrx550" textid="uKCt6758" operation="acceptDeliveryRequest()" linewidth="0" textcolor="none" seqnum="" usesdiagramusefillcolor="1" x="1250" showstereotype="1" y="625" widgetaid="uKCry390" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="uKCt7891" width="285" isinstance="0" usefillcolor="1" fillcolor="none" xmi.id="uKCt5119" autoresize="1" height="10" sequencemessagetype="1001">
+          <floatingtext linecolor="#ff0000" usesdiagramfillcolor="1" linewidth="0" textcolor="none" usesdiagramusefillcolor="1" x="1257.5" showstereotype="1" y="608" text="acceptDeliveryRequest()" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="uKCt8620" pretext="" role="704" width="270" isinstance="0" posttext="" usefillcolor="1" fillcolor="none" xmi.id="uKCt6758" autoresize="1" height="17"/>
+         </messagewidget>
+         <messagewidget linecolor="#ff0000" usesdiagramfillcolor="1" widgetbid="uKCrw352" textid="uKCta361" operation="pickupOrder(orderId)" linewidth="0" textcolor="none" seqnum="" usesdiagramusefillcolor="1" x="935" showstereotype="1" y="680" widgetaid="uKCry390" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="uKCtb755" width="600" isinstance="0" usefillcolor="1" fillcolor="none" xmi.id="uKCt9953" autoresize="1" height="10" sequencemessagetype="1000">
+          <floatingtext linecolor="#ff0000" usesdiagramfillcolor="1" linewidth="0" textcolor="none" usesdiagramusefillcolor="1" x="1115" showstereotype="1" y="663" text="pickupOrder(orderId)" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="uKCtc706" pretext="" role="704" width="240" isinstance="0" posttext="" usefillcolor="1" fillcolor="none" xmi.id="uKCta361" autoresize="1" height="17"/>
+         </messagewidget>
+         <messagewidget linecolor="#ff0000" usesdiagramfillcolor="1" widgetbid="uKCrt564" textid="uKCte851" operation="notifyArrival()" linewidth="0" textcolor="none" seqnum="" usesdiagramusefillcolor="1" x="85" showstereotype="1" y="735" widgetaid="uKCry390" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="uKCtf570" width="1450" isinstance="0" usefillcolor="1" fillcolor="none" xmi.id="uKCtd472" autoresize="1" height="10" sequencemessagetype="1000">
+          <floatingtext linecolor="#ff0000" usesdiagramfillcolor="1" linewidth="0" textcolor="none" usesdiagramusefillcolor="1" x="715" showstereotype="1" y="718" text="notifyArrival()" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="uKCtg286" pretext="" role="704" width="190" isinstance="0" posttext="" usefillcolor="1" fillcolor="none" xmi.id="uKCte851" autoresize="1" height="17"/>
+         </messagewidget>
+         <messagewidget linecolor="#ff0000" usesdiagramfillcolor="1" widgetbid="uKCry390" textid="uKCti254" operation="confirmReceipt()" linewidth="0" textcolor="none" seqnum="" usesdiagramusefillcolor="1" x="85" showstereotype="1" y="790" widgetaid="uKCrt564" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="uKCtj700" width="1450" isinstance="0" usefillcolor="1" fillcolor="none" xmi.id="uKCth276" autoresize="1" height="10" sequencemessagetype="1000">
+          <floatingtext linecolor="#ff0000" usesdiagramfillcolor="1" linewidth="0" textcolor="none" usesdiagramusefillcolor="1" x="710" showstereotype="1" y="773" text="confirmReceipt()" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="uKCtk679" pretext="" role="704" width="200" isinstance="0" posttext="" usefillcolor="1" fillcolor="none" xmi.id="uKCti254" autoresize="1" height="17"/>
+         </messagewidget>
+        </messages>
+        <associations>
+
+        </associations>
+       </diagram>
+      </diagrams>
+     </XMI.extension>
+    </UML:Model>
+    <UML:Model visibility="public" isSpecification="false" namespace="m1" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="Use_Case_View" name="Use Case View">
+     <UML:Namespace.ownedElement/>
+    </UML:Model>
+    <UML:Model visibility="public" isSpecification="false" namespace="m1" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="Component_View" name="Component View">
+     <UML:Namespace.ownedElement/>
+    </UML:Model>
+    <UML:Model visibility="public" isSpecification="false" namespace="m1" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="Deployment_View" name="Deployment View">
+     <UML:Namespace.ownedElement/>
+    </UML:Model>
+    <UML:Model visibility="public" isSpecification="false" namespace="m1" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="Entity_Relationship_Model" name="Entity Relationship Model">
+     <UML:Namespace.ownedElement/>
+    </UML:Model>
+   </UML:Namespace.ownedElement>
+  </UML:Model>
+ </XMI.content>
+ <XMI.extensions xmi.extender="umbrello">
+  <docsettings viewid="uKCtl879" uniqueid="uKCu4370" documentation=""/>
+  <listview>
+   <listitem open="1" type="800" id="Views">
+    <listitem open="1" type="802" id="Use_Case_View"/>
+    <listitem open="1" type="836" id="Entity_Relationship_Model"/>
+    <listitem open="1" type="821" id="Component_View"/>
+    <listitem open="1" type="801" id="Logical_View">
+     <listitem open="0" type="830" id="Datatypes">
+      <listitem open="1" type="829" id="uKCtm192"/>
+      <listitem open="1" type="829" id="uKCtn530"/>
+      <listitem open="1" type="829" id="uKCto108"/>
+      <listitem open="1" type="829" id="uKCtp986"/>
+      <listitem open="1" type="829" id="uKCtq511"/>
+      <listitem open="1" type="829" id="uKCtr744"/>
+      <listitem open="1" type="829" id="uKCts647"/>
+      <listitem open="1" type="829" id="uKCtt430"/>
+      <listitem open="1" type="829" id="uKCtu657"/>
+      <listitem open="1" type="829" id="uKCtv625"/>
+      <listitem open="1" type="829" id="uKCtw888"/>
+      <listitem open="1" type="829" id="uKCtx200"/>
+      <listitem open="1" type="829" id="uKCty790"/>
+      <listitem open="1" type="829" id="uKCtz350"/>
+      <listitem open="1" type="829" id="uKCu0455"/>
+      <listitem open="1" type="829" id="uKCu1884"/>
+      <listitem open="1" type="829" id="uKCu2770"/>
+      <listitem open="1" type="829" id="uKCu3800"/>
+     </listitem>
+     <listitem open="0" type="810" id="uKCtl879" label="Sequence Diagram - Food Order to Delivery"/>
+     <listitem open="1" type="813" id="uKCrt564"/>
+     <listitem open="1" type="813" id="uKCru260"/>
+     <listitem open="1" type="813" id="uKCrv778"/>
+     <listitem open="1" type="813" id="uKCrw352"/>
+     <listitem open="1" type="813" id="uKCrx550"/>
+     <listitem open="1" type="813" id="uKCry390"/>
+    </listitem>
+    <listitem open="1" type="827" id="Deployment_View"/>
+   </listitem>
+  </listview>
+  <codegeneration>
+   <codegenerator language="C++"/>
+  </codegeneration>
+ </XMI.extensions>
+</XMI>
