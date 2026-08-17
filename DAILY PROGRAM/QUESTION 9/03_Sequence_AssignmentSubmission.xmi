@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XMI verified="false" xmi.version="1.2" timestamp="2026-08-05T00:00:00" xmlns:UML="http://schema.omg.org/spec/UML/1.4">
+ <XMI.header>
+  <XMI.documentation>
+   <XMI.exporter>umbrello uml modeller http://umbrello.kde.org</XMI.exporter>
+   <XMI.exporterVersion>1.6.16</XMI.exporterVersion>
+   <XMI.exporterEncoding>UnicodeUTF8</XMI.exporterEncoding>
+  </XMI.documentation>
+  <XMI.metamodel xmi.version="1.4" href="UML.xml" xmi.name="UML"/>
+ </XMI.header>
+ <XMI.content>
+  <UML:Model isSpecification="false" isAbstract="false" isLeaf="false" xmi.id="m1" isRoot="false" name="UML Model">
+   <UML:Namespace.ownedElement>
+    <UML:Stereotype visibility="public" isSpecification="false" namespace="m1" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="folder" name="folder"/>
+    <UML:Stereotype visibility="public" isSpecification="false" namespace="m1" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="include" name="include"/>
+    <UML:Stereotype visibility="public" isSpecification="false" namespace="m1" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="extend" name="extend"/>
+    <UML:Model visibility="public" isSpecification="false" namespace="m1" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="Logical_View" name="Logical View">
+     <UML:Namespace.ownedElement>
+      <UML:Package stereotype="folder" visibility="public" isSpecification="false" namespace="Logical_View" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="Datatypes" name="Datatypes">
+       <UML:Namespace.ownedElement>
+        <UML:DataType visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uKCtm357" name="char"/>
+        <UML:DataType visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uKCtn406" name="int"/>
+        <UML:DataType visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uKCto547" name="float"/>
+        <UML:DataType visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uKCtp707" name="double"/>
+        <UML:DataType visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uKCtq486" name="bool"/>
+        <UML:DataType visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uKCtr733" name="string"/>
+        <UML:DataType visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uKCts903" name="unsigned char"/>
+        <UML:DataType visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uKCtt175" name="signed char"/>
+        <UML:DataType visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uKCtu126" name="unsigned int"/>
+        <UML:DataType visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uKCtv756" name="signed int"/>
+        <UML:DataType visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uKCtw271" name="short int"/>
+        <UML:DataType visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uKCtx722" name="unsigned short int"/>
+        <UML:DataType visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uKCty913" name="signed short int"/>
+        <UML:DataType visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uKCtz366" name="long int"/>
+        <UML:DataType visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uKCu0727" name="signed long int"/>
+        <UML:DataType visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uKCu1647" name="unsigned long int"/>
+        <UML:DataType visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uKCu2956" name="long double"/>
+        <UML:DataType visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uKCu3552" name="wchar_t"/>
+       </UML:Namespace.ownedElement>
+      </UML:Package>
+      <UML:Class visibility="public" isSpecification="false" namespace="Logical_View" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uKCrt332" name="Student"/>
+      <UML:Class visibility="public" isSpecification="false" namespace="Logical_View" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uKCru384" name="LMSPortal"/>
+      <UML:Class visibility="public" isSpecification="false" namespace="Logical_View" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uKCrw448" name="CloudStorage"/>
+      <UML:Class visibility="public" isSpecification="false" namespace="Logical_View" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uKCrv261" name="AssignmentService"/>
+      <UML:Class visibility="public" isSpecification="false" namespace="Logical_View" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uKCry537" name="NotificationService"/>
+      <UML:Class visibility="public" isSpecification="false" namespace="Logical_View" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uKCrx247" name="Faculty"/>
+     </UML:Namespace.ownedElement>
+     <XMI.extension xmi.extender="umbrello">
+      <diagrams resolution="90">
+       <diagram showopsig="1" linecolor="#ff0000" snapx="25" showattribassocs="1" snapy="25" linewidth="0" showattsig="1" textcolor="#000000" isopen="1" showpackage="1" showpubliconly="0" showstereotype="1" name="Sequence Diagram - Assignment Submission and Evaluation" font="Sans Serif,9,-1,0,50,0,0,0,0,0" canvasheight="920" canvaswidth="1720" localid="-1" snapcsgrid="0" showgrid="0" showops="1" griddotcolor="#d3d3d3" backgroundcolor="#ffffff" showdocumentation="0" usefillcolor="1" fillcolor="#ffff00" zoom="100" xmi.id="uKCtl206" documentation="" showscope="1" snapgrid="0" showatts="1" type="3">
+        <widgets>
+         <objectwidget linecolor="#ff0000" usesdiagramfillcolor="1" linewidth="0" textcolor="#000000" usesdiagramusefillcolor="1" x="30" decon="0" showstereotype="1" y="40" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="uKCrz797" width="110" isinstance="0" multipleinstance="0" usefillcolor="1" fillcolor="none" xmi.id="uKCrt332" autoresize="1" height="30" drawasactor="1"/>
+         <objectwidget linecolor="#ff0000" usesdiagramfillcolor="1" linewidth="0" textcolor="#000000" usesdiagramusefillcolor="1" x="250" decon="0" showstereotype="1" y="40" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="uKCs0136" width="160" isinstance="0" multipleinstance="0" usefillcolor="1" fillcolor="none" xmi.id="uKCru384" autoresize="1" height="30" drawasactor="0"/>
+         <objectwidget linecolor="#ff0000" usesdiagramfillcolor="1" linewidth="0" textcolor="#000000" usesdiagramusefillcolor="1" x="520" decon="0" showstereotype="1" y="40" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="uKCs1427" width="180" isinstance="0" multipleinstance="0" usefillcolor="1" fillcolor="none" xmi.id="uKCrw448" autoresize="1" height="30" drawasactor="0"/>
+         <objectwidget linecolor="#ff0000" usesdiagramfillcolor="1" linewidth="0" textcolor="#000000" usesdiagramusefillcolor="1" x="810" decon="0" showstereotype="1" y="40" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="uKCs2135" width="220" isinstance="0" multipleinstance="0" usefillcolor="1" fillcolor="none" xmi.id="uKCrv261" autoresize="1" height="30" drawasactor="0"/>
+         <objectwidget linecolor="#ff0000" usesdiagramfillcolor="1" linewidth="0" textcolor="#000000" usesdiagramusefillcolor="1" x="1140" decon="0" showstereotype="1" y="40" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="uKCs3114" width="210" isinstance="0" multipleinstance="0" usefillcolor="1" fillcolor="none" xmi.id="uKCry537" autoresize="1" height="30" drawasactor="0"/>
+         <objectwidget linecolor="#ff0000" usesdiagramfillcolor="1" linewidth="0" textcolor="#000000" usesdiagramusefillcolor="1" x="1460" decon="0" showstereotype="1" y="40" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="uKCs4730" width="110" isinstance="0" multipleinstance="0" usefillcolor="1" fillcolor="none" xmi.id="uKCrx247" autoresize="1" height="30" drawasactor="1"/>
+        </widgets>
+        <messages>
+         <messagewidget linecolor="#ff0000" usesdiagramfillcolor="1" widgetbid="uKCru384" textid="uKCs6197" operation="submitAssignment(file, assignmentId)" linewidth="0" textcolor="none" seqnum="" usesdiagramusefillcolor="1" x="85" showstereotype="1" y="100" widgetaid="uKCrt332" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="uKCs7337" width="245" isinstance="0" usefillcolor="1" fillcolor="none" xmi.id="uKCs5127" autoresize="1" height="10" sequencemessagetype="1000">
+          <floatingtext linecolor="#ff0000" usesdiagramfillcolor="1" linewidth="0" textcolor="none" usesdiagramusefillcolor="1" x="7.5" showstereotype="1" y="83" text="submitAssignment(file, assignmentId)" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="uKCs8992" pretext="" role="704" width="400" isinstance="0" posttext="" usefillcolor="1" fillcolor="none" xmi.id="uKCs6197" autoresize="1" height="17"/>
+         </messagewidget>
+         <messagewidget linecolor="#ff0000" usesdiagramfillcolor="1" widgetbid="uKCrw448" textid="uKCsa993" operation="uploadFile(file)" linewidth="0" textcolor="none" seqnum="" usesdiagramusefillcolor="1" x="330" showstereotype="1" y="155" widgetaid="uKCru384" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="uKCsb807" width="280" isinstance="0" usefillcolor="1" fillcolor="none" xmi.id="uKCs9368" autoresize="1" height="10" sequencemessagetype="1000">
+          <floatingtext linecolor="#ff0000" usesdiagramfillcolor="1" linewidth="0" textcolor="none" usesdiagramusefillcolor="1" x="370" showstereotype="1" y="138" text="uploadFile(file)" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="uKCsc240" pretext="" role="704" width="200" isinstance="0" posttext="" usefillcolor="1" fillcolor="none" xmi.id="uKCsa993" autoresize="1" height="17"/>
+         </messagewidget>
+         <messagewidget linecolor="#ff0000" usesdiagramfillcolor="1" widgetbid="uKCrw448" textid="uKCse977" operation="storeFile()" linewidth="0" textcolor="none" seqnum="" usesdiagramusefillcolor="1" x="610" showstereotype="1" y="210" widgetaid="uKCrw448" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="uKCsf181" width="60" isinstance="0" usefillcolor="1" fillcolor="none" xmi.id="uKCsd250" autoresize="1" height="20" sequencemessagetype="1000">
+          <floatingtext linecolor="#ff0000" usesdiagramfillcolor="1" linewidth="0" textcolor="none" usesdiagramusefillcolor="1" x="610" showstereotype="1" y="193" text="storeFile()" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="uKCsg310" pretext="" role="705" width="150" isinstance="0" posttext="" usefillcolor="1" fillcolor="none" xmi.id="uKCse977" autoresize="1" height="17"/>
+         </messagewidget>
+         <messagewidget linecolor="#ff0000" usesdiagramfillcolor="1" widgetbid="uKCru384" textid="uKCsi778" operation="fileUrl()" linewidth="0" textcolor="none" seqnum="" usesdiagramusefillcolor="1" x="330" showstereotype="1" y="280" widgetaid="uKCrw448" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="uKCsj551" width="280" isinstance="0" usefillcolor="1" fillcolor="none" xmi.id="uKCsh564" autoresize="1" height="10" sequencemessagetype="1001">
+          <floatingtext linecolor="#ff0000" usesdiagramfillcolor="1" linewidth="0" textcolor="none" usesdiagramusefillcolor="1" x="405" showstereotype="1" y="263" text="fileUrl()" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="uKCsk833" pretext="" role="704" width="130" isinstance="0" posttext="" usefillcolor="1" fillcolor="none" xmi.id="uKCsi778" autoresize="1" height="17"/>
+         </messagewidget>
+         <messagewidget linecolor="#ff0000" usesdiagramfillcolor="1" widgetbid="uKCrv261" textid="uKCsm631" operation="createSubmission(studentId, assignmentId, fileUrl)" linewidth="0" textcolor="none" seqnum="" usesdiagramusefillcolor="1" x="330" showstereotype="1" y="335" widgetaid="uKCru384" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="uKCsn995" width="590" isinstance="0" usefillcolor="1" fillcolor="none" xmi.id="uKCsl602" autoresize="1" height="10" sequencemessagetype="1000">
+          <floatingtext linecolor="#ff0000" usesdiagramfillcolor="1" linewidth="0" textcolor="none" usesdiagramusefillcolor="1" x="355" showstereotype="1" y="318" text="createSubmission(studentId, assignmentId, fileUrl)" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="uKCso261" pretext="" role="704" width="540" isinstance="0" posttext="" usefillcolor="1" fillcolor="none" xmi.id="uKCsm631" autoresize="1" height="17"/>
+         </messagewidget>
+         <messagewidget linecolor="#ff0000" usesdiagramfillcolor="1" widgetbid="uKCrv261" textid="uKCsq425" operation="saveSubmission()" linewidth="0" textcolor="none" seqnum="" usesdiagramusefillcolor="1" x="920" showstereotype="1" y="390" widgetaid="uKCrv261" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="uKCsr983" width="60" isinstance="0" usefillcolor="1" fillcolor="none" xmi.id="uKCsp824" autoresize="1" height="20" sequencemessagetype="1000">
+          <floatingtext linecolor="#ff0000" usesdiagramfillcolor="1" linewidth="0" textcolor="none" usesdiagramusefillcolor="1" x="920" showstereotype="1" y="373" text="saveSubmission()" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="uKCss191" pretext="" role="705" width="200" isinstance="0" posttext="" usefillcolor="1" fillcolor="none" xmi.id="uKCsq425" autoresize="1" height="17"/>
+         </messagewidget>
+         <messagewidget linecolor="#ff0000" usesdiagramfillcolor="1" widgetbid="uKCry537" textid="uKCsu735" operation="notifyFaculty(assignmentId)" linewidth="0" textcolor="none" seqnum="" usesdiagramusefillcolor="1" x="920" showstereotype="1" y="460" widgetaid="uKCrv261" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="uKCsv568" width="325" isinstance="0" usefillcolor="1" fillcolor="none" xmi.id="uKCst248" autoresize="1" height="10" sequencemessagetype="1000">
+          <floatingtext linecolor="#ff0000" usesdiagramfillcolor="1" linewidth="0" textcolor="none" usesdiagramusefillcolor="1" x="927.5" showstereotype="1" y="443" text="notifyFaculty(assignmentId)" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="uKCsw336" pretext="" role="704" width="310" isinstance="0" posttext="" usefillcolor="1" fillcolor="none" xmi.id="uKCsu735" autoresize="1" height="17"/>
+         </messagewidget>
+         <messagewidget linecolor="#ff0000" usesdiagramfillcolor="1" widgetbid="uKCrx247" textid="uKCsy273" operation="alertNewSubmission()" linewidth="0" textcolor="none" seqnum="" usesdiagramusefillcolor="1" x="1245" showstereotype="1" y="515" widgetaid="uKCry537" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="uKCsz359" width="270" isinstance="0" usefillcolor="1" fillcolor="none" xmi.id="uKCsx370" autoresize="1" height="10" sequencemessagetype="1001">
+          <floatingtext linecolor="#ff0000" usesdiagramfillcolor="1" linewidth="0" textcolor="none" usesdiagramusefillcolor="1" x="1260" showstereotype="1" y="498" text="alertNewSubmission()" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="uKCt0560" pretext="" role="704" width="240" isinstance="0" posttext="" usefillcolor="1" fillcolor="none" xmi.id="uKCsy273" autoresize="1" height="17"/>
+         </messagewidget>
+         <messagewidget linecolor="#ff0000" usesdiagramfillcolor="1" widgetbid="uKCru384" textid="uKCt2147" operation="evaluateAssignment(submissionId, score, feedback)" linewidth="0" textcolor="none" seqnum="" usesdiagramusefillcolor="1" x="330" showstereotype="1" y="570" widgetaid="uKCrx247" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="uKCt3794" width="1185" isinstance="0" usefillcolor="1" fillcolor="none" xmi.id="uKCt1134" autoresize="1" height="10" sequencemessagetype="1000">
+          <floatingtext linecolor="#ff0000" usesdiagramfillcolor="1" linewidth="0" textcolor="none" usesdiagramusefillcolor="1" x="657.5" showstereotype="1" y="553" text="evaluateAssignment(submissionId, score, feedback)" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="uKCt4436" pretext="" role="704" width="530" isinstance="0" posttext="" usefillcolor="1" fillcolor="none" xmi.id="uKCt2147" autoresize="1" height="17"/>
+         </messagewidget>
+         <messagewidget linecolor="#ff0000" usesdiagramfillcolor="1" widgetbid="uKCrv261" textid="uKCt6277" operation="recordGrade(submissionId, score, feedback)" linewidth="0" textcolor="none" seqnum="" usesdiagramusefillcolor="1" x="330" showstereotype="1" y="625" widgetaid="uKCru384" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="uKCt7522" width="590" isinstance="0" usefillcolor="1" fillcolor="none" xmi.id="uKCt5906" autoresize="1" height="10" sequencemessagetype="1000">
+          <floatingtext linecolor="#ff0000" usesdiagramfillcolor="1" linewidth="0" textcolor="none" usesdiagramusefillcolor="1" x="395" showstereotype="1" y="608" text="recordGrade(submissionId, score, feedback)" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="uKCt8497" pretext="" role="704" width="460" isinstance="0" posttext="" usefillcolor="1" fillcolor="none" xmi.id="uKCt6277" autoresize="1" height="17"/>
+         </messagewidget>
+         <messagewidget linecolor="#ff0000" usesdiagramfillcolor="1" widgetbid="uKCrv261" textid="uKCta507" operation="updateSubmission()" linewidth="0" textcolor="none" seqnum="" usesdiagramusefillcolor="1" x="920" showstereotype="1" y="680" widgetaid="uKCrv261" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="uKCtb483" width="60" isinstance="0" usefillcolor="1" fillcolor="none" xmi.id="uKCt9910" autoresize="1" height="20" sequencemessagetype="1000">
+          <floatingtext linecolor="#ff0000" usesdiagramfillcolor="1" linewidth="0" textcolor="none" usesdiagramusefillcolor="1" x="920" showstereotype="1" y="663" text="updateSubmission()" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="uKCtc670" pretext="" role="705" width="220" isinstance="0" posttext="" usefillcolor="1" fillcolor="none" xmi.id="uKCta507" autoresize="1" height="17"/>
+         </messagewidget>
+         <messagewidget linecolor="#ff0000" usesdiagramfillcolor="1" widgetbid="uKCry537" textid="uKCte912" operation="notifyStudent(submissionId)" linewidth="0" textcolor="none" seqnum="" usesdiagramusefillcolor="1" x="920" showstereotype="1" y="750" widgetaid="uKCrv261" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="uKCtf864" width="325" isinstance="0" usefillcolor="1" fillcolor="none" xmi.id="uKCtd127" autoresize="1" height="10" sequencemessagetype="1000">
+          <floatingtext linecolor="#ff0000" usesdiagramfillcolor="1" linewidth="0" textcolor="none" usesdiagramusefillcolor="1" x="927.5" showstereotype="1" y="733" text="notifyStudent(submissionId)" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="uKCtg961" pretext="" role="704" width="310" isinstance="0" posttext="" usefillcolor="1" fillcolor="none" xmi.id="uKCte912" autoresize="1" height="17"/>
+         </messagewidget>
+         <messagewidget linecolor="#ff0000" usesdiagramfillcolor="1" widgetbid="uKCrt332" textid="uKCti349" operation="displayGrade()" linewidth="0" textcolor="none" seqnum="" usesdiagramusefillcolor="1" x="85" showstereotype="1" y="805" widgetaid="uKCry537" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="uKCtj341" width="1160" isinstance="0" usefillcolor="1" fillcolor="none" xmi.id="uKCth854" autoresize="1" height="10" sequencemessagetype="1001">
+          <floatingtext linecolor="#ff0000" usesdiagramfillcolor="1" linewidth="0" textcolor="none" usesdiagramusefillcolor="1" x="575" showstereotype="1" y="788" text="displayGrade()" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="uKCtk470" pretext="" role="704" width="180" isinstance="0" posttext="" usefillcolor="1" fillcolor="none" xmi.id="uKCti349" autoresize="1" height="17"/>
+         </messagewidget>
+        </messages>
+        <associations>
+
+        </associations>
+       </diagram>
+      </diagrams>
+     </XMI.extension>
+    </UML:Model>
+    <UML:Model visibility="public" isSpecification="false" namespace="m1" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="Use_Case_View" name="Use Case View">
+     <UML:Namespace.ownedElement/>
+    </UML:Model>
+    <UML:Model visibility="public" isSpecification="false" namespace="m1" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="Component_View" name="Component View">
+     <UML:Namespace.ownedElement/>
+    </UML:Model>
+    <UML:Model visibility="public" isSpecification="false" namespace="m1" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="Deployment_View" name="Deployment View">
+     <UML:Namespace.ownedElement/>
+    </UML:Model>
+    <UML:Model visibility="public" isSpecification="false" namespace="m1" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="Entity_Relationship_Model" name="Entity Relationship Model">
+     <UML:Namespace.ownedElement/>
+    </UML:Model>
+   </UML:Namespace.ownedElement>
+  </UML:Model>
+ </XMI.content>
+ <XMI.extensions xmi.extender="umbrello">
+  <docsettings viewid="uKCtl206" uniqueid="uKCu4801" documentation=""/>
+  <listview>
+   <listitem open="1" type="800" id="Views">
+    <listitem open="1" type="802" id="Use_Case_View"/>
+    <listitem open="1" type="836" id="Entity_Relationship_Model"/>
+    <listitem open="1" type="821" id="Component_View"/>
+    <listitem open="1" type="801" id="Logical_View">
+     <listitem open="0" type="830" id="Datatypes">
+      <listitem open="1" type="829" id="uKCtm357"/>
+      <listitem open="1" type="829" id="uKCtn406"/>
+      <listitem open="1" type="829" id="uKCto547"/>
+      <listitem open="1" type="829" id="uKCtp707"/>
+      <listitem open="1" type="829" id="uKCtq486"/>
+      <listitem open="1" type="829" id="uKCtr733"/>
+      <listitem open="1" type="829" id="uKCts903"/>
+      <listitem open="1" type="829" id="uKCtt175"/>
+      <listitem open="1" type="829" id="uKCtu126"/>
+      <listitem open="1" type="829" id="uKCtv756"/>
+      <listitem open="1" type="829" id="uKCtw271"/>
+      <listitem open="1" type="829" id="uKCtx722"/>
+      <listitem open="1" type="829" id="uKCty913"/>
+      <listitem open="1" type="829" id="uKCtz366"/>
+      <listitem open="1" type="829" id="uKCu0727"/>
+      <listitem open="1" type="829" id="uKCu1647"/>
+      <listitem open="1" type="829" id="uKCu2956"/>
+      <listitem open="1" type="829" id="uKCu3552"/>
+     </listitem>
+     <listitem open="0" type="810" id="uKCtl206" label="Sequence Diagram - Assignment Submission and Evaluation"/>
+     <listitem open="1" type="813" id="uKCrt332"/>
+     <listitem open="1" type="813" id="uKCru384"/>
+     <listitem open="1" type="813" id="uKCrw448"/>
+     <listitem open="1" type="813" id="uKCrv261"/>
+     <listitem open="1" type="813" id="uKCry537"/>
+     <listitem open="1" type="813" id="uKCrx247"/>
+    </listitem>
+    <listitem open="1" type="827" id="Deployment_View"/>
+   </listitem>
+  </listview>
+  <codegeneration>
+   <codegenerator language="C++"/>
+  </codegeneration>
+ </XMI.extensions>
+</XMI>

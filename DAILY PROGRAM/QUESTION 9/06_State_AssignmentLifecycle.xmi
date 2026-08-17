@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XMI verified="false" xmi.version="1.2" timestamp="2026-08-05T00:00:00" xmlns:UML="http://schema.omg.org/spec/UML/1.4">
+ <XMI.header>
+  <XMI.documentation>
+   <XMI.exporter>umbrello uml modeller http://umbrello.kde.org</XMI.exporter>
+   <XMI.exporterVersion>1.6.16</XMI.exporterVersion>
+   <XMI.exporterEncoding>UnicodeUTF8</XMI.exporterEncoding>
+  </XMI.documentation>
+  <XMI.metamodel xmi.version="1.4" href="UML.xml" xmi.name="UML"/>
+ </XMI.header>
+ <XMI.content>
+  <UML:Model isSpecification="false" isAbstract="false" isLeaf="false" xmi.id="m1" isRoot="false" name="UML Model">
+   <UML:Namespace.ownedElement>
+    <UML:Stereotype visibility="public" isSpecification="false" namespace="m1" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="folder" name="folder"/>
+    <UML:Stereotype visibility="public" isSpecification="false" namespace="m1" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="include" name="include"/>
+    <UML:Stereotype visibility="public" isSpecification="false" namespace="m1" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="extend" name="extend"/>
+    <UML:Model visibility="public" isSpecification="false" namespace="m1" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="Logical_View" name="Logical View">
+     <UML:Namespace.ownedElement>
+      <UML:Package stereotype="folder" visibility="public" isSpecification="false" namespace="Logical_View" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="Datatypes" name="Datatypes">
+       <UML:Namespace.ownedElement>
+        <UML:DataType visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uKCsn542" name="char"/>
+        <UML:DataType visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uKCso876" name="int"/>
+        <UML:DataType visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uKCsp173" name="float"/>
+        <UML:DataType visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uKCsq427" name="double"/>
+        <UML:DataType visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uKCsr893" name="bool"/>
+        <UML:DataType visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uKCss474" name="string"/>
+        <UML:DataType visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uKCst765" name="unsigned char"/>
+        <UML:DataType visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uKCsu851" name="signed char"/>
+        <UML:DataType visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uKCsv686" name="unsigned int"/>
+        <UML:DataType visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uKCsw217" name="signed int"/>
+        <UML:DataType visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uKCsx353" name="short int"/>
+        <UML:DataType visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uKCsy402" name="unsigned short int"/>
+        <UML:DataType visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uKCsz752" name="signed short int"/>
+        <UML:DataType visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uKCt0951" name="long int"/>
+        <UML:DataType visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uKCt1845" name="signed long int"/>
+        <UML:DataType visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uKCt2805" name="unsigned long int"/>
+        <UML:DataType visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uKCt3603" name="long double"/>
+        <UML:DataType visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uKCt4440" name="wchar_t"/>
+       </UML:Namespace.ownedElement>
+      </UML:Package>
+     </UML:Namespace.ownedElement>
+     <XMI.extension xmi.extender="umbrello">
+      <diagrams resolution="90">
+       <diagram showopsig="1" linecolor="#ff0000" snapx="25" showattribassocs="1" snapy="25" linewidth="0" showattsig="1" textcolor="#000000" isopen="1" showpackage="1" showpubliconly="0" showstereotype="1" name="State Diagram - Assignment Submission Lifecycle" font="Sans Serif,9,-1,0,50,0,0,0,0,0" canvasheight="730" canvaswidth="800" localid="-1" snapcsgrid="0" showgrid="0" showops="1" griddotcolor="#d3d3d3" backgroundcolor="#ffffff" showdocumentation="0" usefillcolor="1" fillcolor="#ffff00" zoom="100" xmi.id="uKCsm338" documentation="" showscope="1" snapgrid="0" showatts="1" type="5">
+        <widgets>
+         <statewidget linecolor="none" usesdiagramfillcolor="1" linewidth="none" textcolor="none" usesdiagramusefillcolor="1" x="60" showstereotype="1" y="40" font="Sans Serif,9,-1,0,50,0,0,0,0,0" statename="" statetype="0" width="24" isinstance="0" usefillcolor="1" fillcolor="none" xmi.id="uKCrt215" documentation="" height="24"/>
+         <statewidget linecolor="none" usesdiagramfillcolor="1" linewidth="none" textcolor="none" usesdiagramusefillcolor="1" x="220" showstereotype="1" y="100" font="Sans Serif,9,-1,0,50,0,0,0,0,0" statename="Not Submitted" statetype="1" width="200" isinstance="0" usefillcolor="1" fillcolor="none" xmi.id="uKCru934" documentation="" height="60"/>
+         <statewidget linecolor="none" usesdiagramfillcolor="1" linewidth="none" textcolor="none" usesdiagramusefillcolor="1" x="540" showstereotype="1" y="100" font="Sans Serif,9,-1,0,50,0,0,0,0,0" statename="Late / No Submission" statetype="1" width="200" isinstance="0" usefillcolor="1" fillcolor="none" xmi.id="uKCrw340" documentation="" height="60"/>
+         <statewidget linecolor="none" usesdiagramfillcolor="1" linewidth="none" textcolor="none" usesdiagramusefillcolor="1" x="220" showstereotype="1" y="240" font="Sans Serif,9,-1,0,50,0,0,0,0,0" statename="Submitted" statetype="1" width="200" isinstance="0" usefillcolor="1" fillcolor="none" xmi.id="uKCrv397" documentation="" height="60"/>
+         <statewidget linecolor="none" usesdiagramfillcolor="1" linewidth="none" textcolor="none" usesdiagramusefillcolor="1" x="220" showstereotype="1" y="380" font="Sans Serif,9,-1,0,50,0,0,0,0,0" statename="Under Review" statetype="1" width="200" isinstance="0" usefillcolor="1" fillcolor="none" xmi.id="uKCrx738" documentation="" height="60"/>
+         <statewidget linecolor="none" usesdiagramfillcolor="1" linewidth="none" textcolor="none" usesdiagramusefillcolor="1" x="220" showstereotype="1" y="520" font="Sans Serif,9,-1,0,50,0,0,0,0,0" statename="Graded" statetype="1" width="200" isinstance="0" usefillcolor="1" fillcolor="none" xmi.id="uKCry635" documentation="" height="60"/>
+         <statewidget linecolor="none" usesdiagramfillcolor="1" linewidth="none" textcolor="none" usesdiagramusefillcolor="1" x="540" showstereotype="1" y="380" font="Sans Serif,9,-1,0,50,0,0,0,0,0" statename="Resubmitted" statetype="1" width="200" isinstance="0" usefillcolor="1" fillcolor="none" xmi.id="uKCrz637" documentation="" height="60"/>
+         <statewidget linecolor="none" usesdiagramfillcolor="1" linewidth="none" textcolor="none" usesdiagramusefillcolor="1" x="220" showstereotype="1" y="660" font="Sans Serif,9,-1,0,50,0,0,0,0,0" statename="" statetype="2" width="30" isinstance="0" usefillcolor="1" fillcolor="none" xmi.id="uKCs0618" documentation="" height="30"/>
+        </widgets>
+        <messages>
+
+        </messages>
+        <associations>
+         <assocwidget indexa="1" linecolor="#ff0000" indexb="1" usesdiagramfillcolor="0" widgetbid="uKCru934" linewidth="0" seqnum="" textcolor="none" usesdiagramusefillcolor="0" totalcounta="2" totalcountb="2" widgetaid="uKCrt215" font="Sans Serif,9,-1,0,50,0,0,0,0,0" usefillcolor="1" fillcolor="#ffff00" xmi.id="uKCs1100" autoresize="1" type="514">
+          <linepath layout="Polyline">
+           <startpoint startx="72" starty="64"/>
+           <endpoint endx="320" endy="100"/>
+          </linepath>
+
+         </assocwidget>
+         <assocwidget indexa="1" linecolor="#ff0000" indexb="1" usesdiagramfillcolor="0" widgetbid="uKCrv397" linewidth="0" seqnum="" textcolor="none" usesdiagramusefillcolor="0" totalcounta="2" totalcountb="2" widgetaid="uKCru934" font="Sans Serif,9,-1,0,50,0,0,0,0,0" usefillcolor="1" fillcolor="#ffff00" xmi.id="uKCs2306" autoresize="1" type="514">
+          <linepath layout="Polyline">
+           <startpoint startx="320" starty="160"/>
+           <endpoint endx="320" endy="240"/>
+          </linepath>
+          <floatingtext linecolor="#ff0000" usesdiagramfillcolor="1" linewidth="0" textcolor="none" usesdiagramusefillcolor="1" x="330" showstereotype="1" y="192" text="studentSubmits()" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="uKCs4973" pretext="" role="703" width="200" isinstance="0" posttext="" usefillcolor="1" fillcolor="none" xmi.id="uKCs3892" autoresize="1" height="19"/>
+         </assocwidget>
+         <assocwidget indexa="1" linecolor="#ff0000" indexb="1" usesdiagramfillcolor="0" widgetbid="uKCrw340" linewidth="0" seqnum="" textcolor="none" usesdiagramusefillcolor="0" totalcounta="2" totalcountb="2" widgetaid="uKCru934" font="Sans Serif,9,-1,0,50,0,0,0,0,0" usefillcolor="1" fillcolor="#ffff00" xmi.id="uKCs5693" autoresize="1" type="514">
+          <linepath layout="Polyline">
+           <startpoint startx="420" starty="130"/>
+           <endpoint endx="540" endy="130"/>
+          </linepath>
+          <floatingtext linecolor="#ff0000" usesdiagramfillcolor="1" linewidth="0" textcolor="none" usesdiagramusefillcolor="1" x="490" showstereotype="1" y="122" text="deadlinePasses()" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="uKCs7240" pretext="" role="703" width="200" isinstance="0" posttext="" usefillcolor="1" fillcolor="none" xmi.id="uKCs6204" autoresize="1" height="19"/>
+         </assocwidget>
+         <assocwidget indexa="1" linecolor="#ff0000" indexb="1" usesdiagramfillcolor="0" widgetbid="uKCs0618" linewidth="0" seqnum="" textcolor="none" usesdiagramusefillcolor="0" totalcounta="2" totalcountb="2" widgetaid="uKCrw340" font="Sans Serif,9,-1,0,50,0,0,0,0,0" usefillcolor="1" fillcolor="#ffff00" xmi.id="uKCs8939" autoresize="1" type="514">
+          <linepath layout="Polyline">
+           <startpoint startx="740" starty="130"/>
+           <endpoint endx="250" endy="675"/>
+          </linepath>
+
+         </assocwidget>
+         <assocwidget indexa="1" linecolor="#ff0000" indexb="1" usesdiagramfillcolor="0" widgetbid="uKCrx738" linewidth="0" seqnum="" textcolor="none" usesdiagramusefillcolor="0" totalcounta="2" totalcountb="2" widgetaid="uKCrv397" font="Sans Serif,9,-1,0,50,0,0,0,0,0" usefillcolor="1" fillcolor="#ffff00" xmi.id="uKCs9390" autoresize="1" type="514">
+          <linepath layout="Polyline">
+           <startpoint startx="320" starty="300"/>
+           <endpoint endx="320" endy="380"/>
+          </linepath>
+          <floatingtext linecolor="#ff0000" usesdiagramfillcolor="1" linewidth="0" textcolor="none" usesdiagramusefillcolor="1" x="330" showstereotype="1" y="332" text="facultyOpensSubmission()" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="uKCsb427" pretext="" role="703" width="280" isinstance="0" posttext="" usefillcolor="1" fillcolor="none" xmi.id="uKCsa981" autoresize="1" height="19"/>
+         </assocwidget>
+         <assocwidget indexa="1" linecolor="#ff0000" indexb="1" usesdiagramfillcolor="0" widgetbid="uKCry635" linewidth="0" seqnum="" textcolor="none" usesdiagramusefillcolor="0" totalcounta="2" totalcountb="2" widgetaid="uKCrx738" font="Sans Serif,9,-1,0,50,0,0,0,0,0" usefillcolor="1" fillcolor="#ffff00" xmi.id="uKCsc223" autoresize="1" type="514">
+          <linepath layout="Polyline">
+           <startpoint startx="320" starty="440"/>
+           <endpoint endx="320" endy="520"/>
+          </linepath>
+          <floatingtext linecolor="#ff0000" usesdiagramfillcolor="1" linewidth="0" textcolor="none" usesdiagramusefillcolor="1" x="330" showstereotype="1" y="472" text="facultyEvaluates() / notifyStudent()" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="uKCse726" pretext="" role="703" width="400" isinstance="0" posttext="" usefillcolor="1" fillcolor="none" xmi.id="uKCsd764" autoresize="1" height="19"/>
+         </assocwidget>
+         <assocwidget indexa="1" linecolor="#ff0000" indexb="1" usesdiagramfillcolor="0" widgetbid="uKCrz637" linewidth="0" seqnum="" textcolor="none" usesdiagramusefillcolor="0" totalcounta="2" totalcountb="2" widgetaid="uKCry635" font="Sans Serif,9,-1,0,50,0,0,0,0,0" usefillcolor="1" fillcolor="#ffff00" xmi.id="uKCsf321" autoresize="1" type="514">
+          <linepath layout="Polyline">
+           <startpoint startx="420" starty="550"/>
+           <endpoint endx="540" endy="410"/>
+          </linepath>
+          <floatingtext linecolor="#ff0000" usesdiagramfillcolor="1" linewidth="0" textcolor="none" usesdiagramusefillcolor="1" x="490" showstereotype="1" y="472" text="studentResubmits() [allowed]" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="uKCsh277" pretext="" role="703" width="320" isinstance="0" posttext="" usefillcolor="1" fillcolor="none" xmi.id="uKCsg814" autoresize="1" height="19"/>
+         </assocwidget>
+         <assocwidget indexa="1" linecolor="#ff0000" indexb="1" usesdiagramfillcolor="0" widgetbid="uKCrx738" linewidth="0" seqnum="" textcolor="none" usesdiagramusefillcolor="0" totalcounta="2" totalcountb="2" widgetaid="uKCrz637" font="Sans Serif,9,-1,0,50,0,0,0,0,0" usefillcolor="1" fillcolor="#ffff00" xmi.id="uKCsi467" autoresize="1" type="514">
+          <linepath layout="Polyline">
+           <startpoint startx="640" starty="380"/>
+           <endpoint endx="420" endy="410"/>
+          </linepath>
+
+         </assocwidget>
+         <assocwidget indexa="1" linecolor="#ff0000" indexb="1" usesdiagramfillcolor="0" widgetbid="uKCs0618" linewidth="0" seqnum="" textcolor="none" usesdiagramusefillcolor="0" totalcounta="2" totalcountb="2" widgetaid="uKCry635" font="Sans Serif,9,-1,0,50,0,0,0,0,0" usefillcolor="1" fillcolor="#ffff00" xmi.id="uKCsj101" autoresize="1" type="514">
+          <linepath layout="Polyline">
+           <startpoint startx="220" starty="550"/>
+           <endpoint endx="235" endy="690"/>
+          </linepath>
+          <floatingtext linecolor="#ff0000" usesdiagramfillcolor="1" linewidth="0" textcolor="none" usesdiagramusefillcolor="1" x="237.5" showstereotype="1" y="612" text="finalized()" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="uKCsl379" pretext="" role="703" width="150" isinstance="0" posttext="" usefillcolor="1" fillcolor="none" xmi.id="uKCsk597" autoresize="1" height="19"/>
+         </assocwidget>
+        </associations>
+       </diagram>
+      </diagrams>
+     </XMI.extension>
+    </UML:Model>
+    <UML:Model visibility="public" isSpecification="false" namespace="m1" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="Use_Case_View" name="Use Case View">
+     <UML:Namespace.ownedElement/>
+    </UML:Model>
+    <UML:Model visibility="public" isSpecification="false" namespace="m1" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="Component_View" name="Component View">
+     <UML:Namespace.ownedElement/>
+    </UML:Model>
+    <UML:Model visibility="public" isSpecification="false" namespace="m1" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="Deployment_View" name="Deployment View">
+     <UML:Namespace.ownedElement/>
+    </UML:Model>
+    <UML:Model visibility="public" isSpecification="false" namespace="m1" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="Entity_Relationship_Model" name="Entity Relationship Model">
+     <UML:Namespace.ownedElement/>
+    </UML:Model>
+   </UML:Namespace.ownedElement>
+  </UML:Model>
+ </XMI.content>
+ <XMI.extensions xmi.extender="umbrello">
+  <docsettings viewid="uKCsm338" uniqueid="uKCt5904" documentation=""/>
+  <listview>
+   <listitem open="1" type="800" id="Views">
+    <listitem open="1" type="802" id="Use_Case_View"/>
+    <listitem open="1" type="836" id="Entity_Relationship_Model"/>
+    <listitem open="1" type="821" id="Component_View"/>
+    <listitem open="1" type="801" id="Logical_View">
+     <listitem open="0" type="830" id="Datatypes">
+      <listitem open="1" type="829" id="uKCsn542"/>
+      <listitem open="1" type="829" id="uKCso876"/>
+      <listitem open="1" type="829" id="uKCsp173"/>
+      <listitem open="1" type="829" id="uKCsq427"/>
+      <listitem open="1" type="829" id="uKCsr893"/>
+      <listitem open="1" type="829" id="uKCss474"/>
+      <listitem open="1" type="829" id="uKCst765"/>
+      <listitem open="1" type="829" id="uKCsu851"/>
+      <listitem open="1" type="829" id="uKCsv686"/>
+      <listitem open="1" type="829" id="uKCsw217"/>
+      <listitem open="1" type="829" id="uKCsx353"/>
+      <listitem open="1" type="829" id="uKCsy402"/>
+      <listitem open="1" type="829" id="uKCsz752"/>
+      <listitem open="1" type="829" id="uKCt0951"/>
+      <listitem open="1" type="829" id="uKCt1845"/>
+      <listitem open="1" type="829" id="uKCt2805"/>
+      <listitem open="1" type="829" id="uKCt3603"/>
+      <listitem open="1" type="829" id="uKCt4440"/>
+     </listitem>
+     <listitem open="0" type="808" id="uKCsm338" label="State Diagram - Assignment Submission Lifecycle"/>
+    </listitem>
+    <listitem open="1" type="827" id="Deployment_View"/>
+   </listitem>
+  </listview>
+  <codegeneration>
+   <codegenerator language="C++"/>
+  </codegeneration>
+ </XMI.extensions>
+</XMI>
