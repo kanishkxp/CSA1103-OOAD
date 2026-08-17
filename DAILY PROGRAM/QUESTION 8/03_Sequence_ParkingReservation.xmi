@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XMI verified="false" xmi.version="1.2" timestamp="2026-08-05T00:00:00" xmlns:UML="http://schema.omg.org/spec/UML/1.4">
+ <XMI.header>
+  <XMI.documentation>
+   <XMI.exporter>umbrello uml modeller http://umbrello.kde.org</XMI.exporter>
+   <XMI.exporterVersion>1.6.16</XMI.exporterVersion>
+   <XMI.exporterEncoding>UnicodeUTF8</XMI.exporterEncoding>
+  </XMI.documentation>
+  <XMI.metamodel xmi.version="1.4" href="UML.xml" xmi.name="UML"/>
+ </XMI.header>
+ <XMI.content>
+  <UML:Model isSpecification="false" isAbstract="false" isLeaf="false" xmi.id="m1" isRoot="false" name="UML Model">
+   <UML:Namespace.ownedElement>
+    <UML:Stereotype visibility="public" isSpecification="false" namespace="m1" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="folder" name="folder"/>
+    <UML:Stereotype visibility="public" isSpecification="false" namespace="m1" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="include" name="include"/>
+    <UML:Stereotype visibility="public" isSpecification="false" namespace="m1" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="extend" name="extend"/>
+    <UML:Model visibility="public" isSpecification="false" namespace="m1" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="Logical_View" name="Logical View">
+     <UML:Namespace.ownedElement>
+      <UML:Package stereotype="folder" visibility="public" isSpecification="false" namespace="Logical_View" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="Datatypes" name="Datatypes">
+       <UML:Namespace.ownedElement>
+        <UML:DataType visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uKCtm877" name="char"/>
+        <UML:DataType visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uKCtn311" name="int"/>
+        <UML:DataType visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uKCto577" name="float"/>
+        <UML:DataType visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uKCtp632" name="double"/>
+        <UML:DataType visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uKCtq209" name="bool"/>
+        <UML:DataType visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uKCtr726" name="string"/>
+        <UML:DataType visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uKCts203" name="unsigned char"/>
+        <UML:DataType visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uKCtt451" name="signed char"/>
+        <UML:DataType visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uKCtu878" name="unsigned int"/>
+        <UML:DataType visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uKCtv819" name="signed int"/>
+        <UML:DataType visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uKCtw644" name="short int"/>
+        <UML:DataType visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uKCtx988" name="unsigned short int"/>
+        <UML:DataType visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uKCty229" name="signed short int"/>
+        <UML:DataType visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uKCtz899" name="long int"/>
+        <UML:DataType visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uKCu0883" name="signed long int"/>
+        <UML:DataType visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uKCu1959" name="unsigned long int"/>
+        <UML:DataType visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uKCu2790" name="long double"/>
+        <UML:DataType visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uKCu3194" name="wchar_t"/>
+       </UML:Namespace.ownedElement>
+      </UML:Package>
+      <UML:Class visibility="public" isSpecification="false" namespace="Logical_View" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uKCrt285" name="User"/>
+      <UML:Class visibility="public" isSpecification="false" namespace="Logical_View" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uKCru307" name="ParkingApp"/>
+      <UML:Class visibility="public" isSpecification="false" namespace="Logical_View" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uKCrv166" name="SlotService"/>
+      <UML:Class visibility="public" isSpecification="false" namespace="Logical_View" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uKCrw713" name="ReservationService"/>
+      <UML:Class visibility="public" isSpecification="false" namespace="Logical_View" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uKCrx920" name="PaymentService"/>
+      <UML:Class visibility="public" isSpecification="false" namespace="Logical_View" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uKCry918" name="PaymentGateway"/>
+     </UML:Namespace.ownedElement>
+     <XMI.extension xmi.extender="umbrello">
+      <diagrams resolution="90">
+       <diagram showopsig="1" linecolor="#ff0000" snapx="25" showattribassocs="1" snapy="25" linewidth="0" showattsig="1" textcolor="#000000" isopen="1" showpackage="1" showpubliconly="0" showstereotype="1" name="Sequence Diagram - Parking Reservation and Payment" font="Sans Serif,9,-1,0,50,0,0,0,0,0" canvasheight="905" canvaswidth="1800" localid="-1" snapcsgrid="0" showgrid="0" showops="1" griddotcolor="#d3d3d3" backgroundcolor="#ffffff" showdocumentation="0" usefillcolor="1" fillcolor="#ffff00" zoom="100" xmi.id="uKCtl923" documentation="" showscope="1" snapgrid="0" showatts="1" type="3">
+        <widgets>
+         <objectwidget linecolor="#ff0000" usesdiagramfillcolor="1" linewidth="0" textcolor="#000000" usesdiagramusefillcolor="1" x="30" decon="0" showstereotype="1" y="40" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="uKCrz970" width="100" isinstance="0" multipleinstance="0" usefillcolor="1" fillcolor="none" xmi.id="uKCrt285" autoresize="1" height="30" drawasactor="1"/>
+         <objectwidget linecolor="#ff0000" usesdiagramfillcolor="1" linewidth="0" textcolor="#000000" usesdiagramusefillcolor="1" x="250" decon="0" showstereotype="1" y="40" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="uKCs0150" width="180" isinstance="0" multipleinstance="0" usefillcolor="1" fillcolor="none" xmi.id="uKCru307" autoresize="1" height="30" drawasactor="0"/>
+         <objectwidget linecolor="#ff0000" usesdiagramfillcolor="1" linewidth="0" textcolor="#000000" usesdiagramusefillcolor="1" x="550" decon="0" showstereotype="1" y="40" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="uKCs1663" width="170" isinstance="0" multipleinstance="0" usefillcolor="1" fillcolor="none" xmi.id="uKCrv166" autoresize="1" height="30" drawasactor="0"/>
+         <objectwidget linecolor="#ff0000" usesdiagramfillcolor="1" linewidth="0" textcolor="#000000" usesdiagramusefillcolor="1" x="850" decon="0" showstereotype="1" y="40" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="uKCs2607" width="220" isinstance="0" multipleinstance="0" usefillcolor="1" fillcolor="none" xmi.id="uKCrw713" autoresize="1" height="30" drawasactor="0"/>
+         <objectwidget linecolor="#ff0000" usesdiagramfillcolor="1" linewidth="0" textcolor="#000000" usesdiagramusefillcolor="1" x="1200" decon="0" showstereotype="1" y="40" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="uKCs3672" width="190" isinstance="0" multipleinstance="0" usefillcolor="1" fillcolor="none" xmi.id="uKCrx920" autoresize="1" height="30" drawasactor="0"/>
+         <objectwidget linecolor="#ff0000" usesdiagramfillcolor="1" linewidth="0" textcolor="#000000" usesdiagramusefillcolor="1" x="1510" decon="0" showstereotype="1" y="40" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="uKCs4295" width="180" isinstance="0" multipleinstance="0" usefillcolor="1" fillcolor="none" xmi.id="uKCry918" autoresize="1" height="30" drawasactor="1"/>
+        </widgets>
+        <messages>
+         <messagewidget linecolor="#ff0000" usesdiagramfillcolor="1" widgetbid="uKCru307" textid="uKCs6352" operation="searchAvailableSlots(location)" linewidth="0" textcolor="none" seqnum="" usesdiagramusefillcolor="1" x="80" showstereotype="1" y="100" widgetaid="uKCrt285" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="uKCs7904" width="260" isinstance="0" usefillcolor="1" fillcolor="none" xmi.id="uKCs5840" autoresize="1" height="10" sequencemessagetype="1000">
+          <floatingtext linecolor="#ff0000" usesdiagramfillcolor="1" linewidth="0" textcolor="none" usesdiagramusefillcolor="1" x="40" showstereotype="1" y="83" text="searchAvailableSlots(location)" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="uKCs8476" pretext="" role="704" width="340" isinstance="0" posttext="" usefillcolor="1" fillcolor="none" xmi.id="uKCs6352" autoresize="1" height="17"/>
+         </messagewidget>
+         <messagewidget linecolor="#ff0000" usesdiagramfillcolor="1" widgetbid="uKCrv166" textid="uKCsa234" operation="getAvailableSlots(location)" linewidth="0" textcolor="none" seqnum="" usesdiagramusefillcolor="1" x="340" showstereotype="1" y="155" widgetaid="uKCru307" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="uKCsb561" width="295" isinstance="0" usefillcolor="1" fillcolor="none" xmi.id="uKCs9968" autoresize="1" height="10" sequencemessagetype="1000">
+          <floatingtext linecolor="#ff0000" usesdiagramfillcolor="1" linewidth="0" textcolor="none" usesdiagramusefillcolor="1" x="332.5" showstereotype="1" y="138" text="getAvailableSlots(location)" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="uKCsc215" pretext="" role="704" width="310" isinstance="0" posttext="" usefillcolor="1" fillcolor="none" xmi.id="uKCsa234" autoresize="1" height="17"/>
+         </messagewidget>
+         <messagewidget linecolor="#ff0000" usesdiagramfillcolor="1" widgetbid="uKCrv166" textid="uKCse718" operation="queryOccupancyData()" linewidth="0" textcolor="none" seqnum="" usesdiagramusefillcolor="1" x="635" showstereotype="1" y="210" widgetaid="uKCrv166" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="uKCsf317" width="60" isinstance="0" usefillcolor="1" fillcolor="none" xmi.id="uKCsd460" autoresize="1" height="20" sequencemessagetype="1000">
+          <floatingtext linecolor="#ff0000" usesdiagramfillcolor="1" linewidth="0" textcolor="none" usesdiagramusefillcolor="1" x="635" showstereotype="1" y="193" text="queryOccupancyData()" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="uKCsg855" pretext="" role="705" width="240" isinstance="0" posttext="" usefillcolor="1" fillcolor="none" xmi.id="uKCse718" autoresize="1" height="17"/>
+         </messagewidget>
+         <messagewidget linecolor="#ff0000" usesdiagramfillcolor="1" widgetbid="uKCru307" textid="uKCsi326" operation="slotList()" linewidth="0" textcolor="none" seqnum="" usesdiagramusefillcolor="1" x="340" showstereotype="1" y="280" widgetaid="uKCrv166" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="uKCsj135" width="295" isinstance="0" usefillcolor="1" fillcolor="none" xmi.id="uKCsh944" autoresize="1" height="10" sequencemessagetype="1001">
+          <floatingtext linecolor="#ff0000" usesdiagramfillcolor="1" linewidth="0" textcolor="none" usesdiagramusefillcolor="1" x="417.5" showstereotype="1" y="263" text="slotList()" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="uKCsk475" pretext="" role="704" width="140" isinstance="0" posttext="" usefillcolor="1" fillcolor="none" xmi.id="uKCsi326" autoresize="1" height="17"/>
+         </messagewidget>
+         <messagewidget linecolor="#ff0000" usesdiagramfillcolor="1" widgetbid="uKCru307" textid="uKCsm277" operation="selectSlot(slotId)" linewidth="0" textcolor="none" seqnum="" usesdiagramusefillcolor="1" x="80" showstereotype="1" y="335" widgetaid="uKCrt285" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="uKCsn203" width="260" isinstance="0" usefillcolor="1" fillcolor="none" xmi.id="uKCsl709" autoresize="1" height="10" sequencemessagetype="1000">
+          <floatingtext linecolor="#ff0000" usesdiagramfillcolor="1" linewidth="0" textcolor="none" usesdiagramusefillcolor="1" x="100" showstereotype="1" y="318" text="selectSlot(slotId)" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="uKCso177" pretext="" role="704" width="220" isinstance="0" posttext="" usefillcolor="1" fillcolor="none" xmi.id="uKCsm277" autoresize="1" height="17"/>
+         </messagewidget>
+         <messagewidget linecolor="#ff0000" usesdiagramfillcolor="1" widgetbid="uKCrw713" textid="uKCsq137" operation="createReservation(userId, slotId, duration)" linewidth="0" textcolor="none" seqnum="" usesdiagramusefillcolor="1" x="340" showstereotype="1" y="390" widgetaid="uKCru307" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="uKCsr565" width="620" isinstance="0" usefillcolor="1" fillcolor="none" xmi.id="uKCsp114" autoresize="1" height="10" sequencemessagetype="1000">
+          <floatingtext linecolor="#ff0000" usesdiagramfillcolor="1" linewidth="0" textcolor="none" usesdiagramusefillcolor="1" x="415" showstereotype="1" y="373" text="createReservation(userId, slotId, duration)" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="uKCss814" pretext="" role="704" width="470" isinstance="0" posttext="" usefillcolor="1" fillcolor="none" xmi.id="uKCsq137" autoresize="1" height="17"/>
+         </messagewidget>
+         <messagewidget linecolor="#ff0000" usesdiagramfillcolor="1" widgetbid="uKCrw713" textid="uKCsu531" operation="reserveSlot()" linewidth="0" textcolor="none" seqnum="" usesdiagramusefillcolor="1" x="960" showstereotype="1" y="445" widgetaid="uKCrw713" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="uKCsv566" width="60" isinstance="0" usefillcolor="1" fillcolor="none" xmi.id="uKCst306" autoresize="1" height="20" sequencemessagetype="1000">
+          <floatingtext linecolor="#ff0000" usesdiagramfillcolor="1" linewidth="0" textcolor="none" usesdiagramusefillcolor="1" x="960" showstereotype="1" y="428" text="reserveSlot()" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="uKCsw297" pretext="" role="705" width="170" isinstance="0" posttext="" usefillcolor="1" fillcolor="none" xmi.id="uKCsu531" autoresize="1" height="17"/>
+         </messagewidget>
+         <messagewidget linecolor="#ff0000" usesdiagramfillcolor="1" widgetbid="uKCrx920" textid="uKCsy729" operation="initiatePayment(amount)" linewidth="0" textcolor="none" seqnum="" usesdiagramusefillcolor="1" x="960" showstereotype="1" y="515" widgetaid="uKCrw713" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="uKCsz638" width="335" isinstance="0" usefillcolor="1" fillcolor="none" xmi.id="uKCsx276" autoresize="1" height="10" sequencemessagetype="1000">
+          <floatingtext linecolor="#ff0000" usesdiagramfillcolor="1" linewidth="0" textcolor="none" usesdiagramusefillcolor="1" x="992.5" showstereotype="1" y="498" text="initiatePayment(amount)" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="uKCt0951" pretext="" role="704" width="270" isinstance="0" posttext="" usefillcolor="1" fillcolor="none" xmi.id="uKCsy729" autoresize="1" height="17"/>
+         </messagewidget>
+         <messagewidget linecolor="#ff0000" usesdiagramfillcolor="1" widgetbid="uKCry918" textid="uKCt2225" operation="processPayment(cardDetails, amount)" linewidth="0" textcolor="none" seqnum="" usesdiagramusefillcolor="1" x="1295" showstereotype="1" y="570" widgetaid="uKCrx920" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="uKCt3442" width="305" isinstance="0" usefillcolor="1" fillcolor="none" xmi.id="uKCt1812" autoresize="1" height="10" sequencemessagetype="1000">
+          <floatingtext linecolor="#ff0000" usesdiagramfillcolor="1" linewidth="0" textcolor="none" usesdiagramusefillcolor="1" x="1252.5" showstereotype="1" y="553" text="processPayment(cardDetails, amount)" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="uKCt4319" pretext="" role="704" width="390" isinstance="0" posttext="" usefillcolor="1" fillcolor="none" xmi.id="uKCt2225" autoresize="1" height="17"/>
+         </messagewidget>
+         <messagewidget linecolor="#ff0000" usesdiagramfillcolor="1" widgetbid="uKCrx920" textid="uKCt6535" operation="paymentApproved()" linewidth="0" textcolor="none" seqnum="" usesdiagramusefillcolor="1" x="1295" showstereotype="1" y="625" widgetaid="uKCry918" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="uKCt7436" width="305" isinstance="0" usefillcolor="1" fillcolor="none" xmi.id="uKCt5353" autoresize="1" height="10" sequencemessagetype="1001">
+          <floatingtext linecolor="#ff0000" usesdiagramfillcolor="1" linewidth="0" textcolor="none" usesdiagramusefillcolor="1" x="1342.5" showstereotype="1" y="608" text="paymentApproved()" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="uKCt8687" pretext="" role="704" width="210" isinstance="0" posttext="" usefillcolor="1" fillcolor="none" xmi.id="uKCt6535" autoresize="1" height="17"/>
+         </messagewidget>
+         <messagewidget linecolor="#ff0000" usesdiagramfillcolor="1" widgetbid="uKCrw713" textid="uKCta848" operation="paymentConfirmed()" linewidth="0" textcolor="none" seqnum="" usesdiagramusefillcolor="1" x="960" showstereotype="1" y="680" widgetaid="uKCrx920" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="uKCtb373" width="335" isinstance="0" usefillcolor="1" fillcolor="none" xmi.id="uKCt9469" autoresize="1" height="10" sequencemessagetype="1001">
+          <floatingtext linecolor="#ff0000" usesdiagramfillcolor="1" linewidth="0" textcolor="none" usesdiagramusefillcolor="1" x="1017.5" showstereotype="1" y="663" text="paymentConfirmed()" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="uKCtc945" pretext="" role="704" width="220" isinstance="0" posttext="" usefillcolor="1" fillcolor="none" xmi.id="uKCta848" autoresize="1" height="17"/>
+         </messagewidget>
+         <messagewidget linecolor="#ff0000" usesdiagramfillcolor="1" widgetbid="uKCru307" textid="uKCte633" operation="reservationConfirmed(reservationId)" linewidth="0" textcolor="none" seqnum="" usesdiagramusefillcolor="1" x="340" showstereotype="1" y="735" widgetaid="uKCrw713" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="uKCtf374" width="620" isinstance="0" usefillcolor="1" fillcolor="none" xmi.id="uKCtd663" autoresize="1" height="10" sequencemessagetype="1001">
+          <floatingtext linecolor="#ff0000" usesdiagramfillcolor="1" linewidth="0" textcolor="none" usesdiagramusefillcolor="1" x="455" showstereotype="1" y="718" text="reservationConfirmed(reservationId)" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="uKCtg588" pretext="" role="704" width="390" isinstance="0" posttext="" usefillcolor="1" fillcolor="none" xmi.id="uKCte633" autoresize="1" height="17"/>
+         </messagewidget>
+         <messagewidget linecolor="#ff0000" usesdiagramfillcolor="1" widgetbid="uKCrt285" textid="uKCti931" operation="displayConfirmation()" linewidth="0" textcolor="none" seqnum="" usesdiagramusefillcolor="1" x="80" showstereotype="1" y="790" widgetaid="uKCru307" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="uKCtj174" width="260" isinstance="0" usefillcolor="1" fillcolor="none" xmi.id="uKCth547" autoresize="1" height="10" sequencemessagetype="1001">
+          <floatingtext linecolor="#ff0000" usesdiagramfillcolor="1" linewidth="0" textcolor="none" usesdiagramusefillcolor="1" x="85" showstereotype="1" y="773" text="displayConfirmation()" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="uKCtk968" pretext="" role="704" width="250" isinstance="0" posttext="" usefillcolor="1" fillcolor="none" xmi.id="uKCti931" autoresize="1" height="17"/>
+         </messagewidget>
+        </messages>
+        <associations>
+
+        </associations>
+       </diagram>
+      </diagrams>
+     </XMI.extension>
+    </UML:Model>
+    <UML:Model visibility="public" isSpecification="false" namespace="m1" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="Use_Case_View" name="Use Case View">
+     <UML:Namespace.ownedElement/>
+    </UML:Model>
+    <UML:Model visibility="public" isSpecification="false" namespace="m1" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="Component_View" name="Component View">
+     <UML:Namespace.ownedElement/>
+    </UML:Model>
+    <UML:Model visibility="public" isSpecification="false" namespace="m1" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="Deployment_View" name="Deployment View">
+     <UML:Namespace.ownedElement/>
+    </UML:Model>
+    <UML:Model visibility="public" isSpecification="false" namespace="m1" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="Entity_Relationship_Model" name="Entity Relationship Model">
+     <UML:Namespace.ownedElement/>
+    </UML:Model>
+   </UML:Namespace.ownedElement>
+  </UML:Model>
+ </XMI.content>
+ <XMI.extensions xmi.extender="umbrello">
+  <docsettings viewid="uKCtl923" uniqueid="uKCu4585" documentation=""/>
+  <listview>
+   <listitem open="1" type="800" id="Views">
+    <listitem open="1" type="802" id="Use_Case_View"/>
+    <listitem open="1" type="836" id="Entity_Relationship_Model"/>
+    <listitem open="1" type="821" id="Component_View"/>
+    <listitem open="1" type="801" id="Logical_View">
+     <listitem open="0" type="830" id="Datatypes">
+      <listitem open="1" type="829" id="uKCtm877"/>
+      <listitem open="1" type="829" id="uKCtn311"/>
+      <listitem open="1" type="829" id="uKCto577"/>
+      <listitem open="1" type="829" id="uKCtp632"/>
+      <listitem open="1" type="829" id="uKCtq209"/>
+      <listitem open="1" type="829" id="uKCtr726"/>
+      <listitem open="1" type="829" id="uKCts203"/>
+      <listitem open="1" type="829" id="uKCtt451"/>
+      <listitem open="1" type="829" id="uKCtu878"/>
+      <listitem open="1" type="829" id="uKCtv819"/>
+      <listitem open="1" type="829" id="uKCtw644"/>
+      <listitem open="1" type="829" id="uKCtx988"/>
+      <listitem open="1" type="829" id="uKCty229"/>
+      <listitem open="1" type="829" id="uKCtz899"/>
+      <listitem open="1" type="829" id="uKCu0883"/>
+      <listitem open="1" type="829" id="uKCu1959"/>
+      <listitem open="1" type="829" id="uKCu2790"/>
+      <listitem open="1" type="829" id="uKCu3194"/>
+     </listitem>
+     <listitem open="0" type="810" id="uKCtl923" label="Sequence Diagram - Parking Reservation and Payment"/>
+     <listitem open="1" type="813" id="uKCrt285"/>
+     <listitem open="1" type="813" id="uKCru307"/>
+     <listitem open="1" type="813" id="uKCrv166"/>
+     <listitem open="1" type="813" id="uKCrw713"/>
+     <listitem open="1" type="813" id="uKCrx920"/>
+     <listitem open="1" type="813" id="uKCry918"/>
+    </listitem>
+    <listitem open="1" type="827" id="Deployment_View"/>
+   </listitem>
+  </listview>
+  <codegeneration>
+   <codegenerator language="C++"/>
+  </codegeneration>
+ </XMI.extensions>
+</XMI>
